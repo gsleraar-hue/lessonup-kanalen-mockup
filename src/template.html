@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leskanalen mockup</title>
+<meta name="description" content="Mockup van de LessonUp-kanalenpagina met een schakelaar tussen partnerkanalen en LessonUp Originals.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'odin';src:url('https://www.lessonup.com/search/public/fonts/odin-rounded.light-webfont.woff') format('woff');font-display:swap}
+:root{
+  --blue:#4e7fff; --navy:#001343; --lime:#e5ff45; --teal:#00b6bc; --yellow:#f8c82d;
+  --text:#5a4d4c; --muted:#8a7f7e; --line:#e6e2e1; --bg:#f3f3f3; --card-bg:#fff;
+  --orig:#ff6a3d; --orig-soft:#fff0ea;
+  --display:'odin','Josefin Sans',sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Montserrat,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);background:var(--bg);font-size:16px;line-height:1.5}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer}
+
+/* mockup-lint */
+.mock{background:var(--navy);color:#fff;font-size:13px;text-align:center;padding:6px 16px}
+.mock b{color:var(--lime);font-weight:600}
+
+/* nav */
+.nav{background:var(--blue);color:#eff4ff;height:64px;display:flex;align-items:center;padding:0 24px;gap:24px;position:sticky;top:0;z-index:20}
+.nav .logo{display:flex;color:#fff}
+.nav .logo svg{height:26px;width:auto}
+.nav ul{list-style:none;display:flex;gap:4px;margin:0;padding:0;flex:1}
+.nav li a{display:block;padding:8px 14px;border-radius:6px;font-weight:600;font-size:15px}
+.nav li a:hover{background:rgba(255,255,255,.12)}
+.nav li a.on{background:rgba(255,255,255,.25)}
+.nav .right{display:flex;align-items:center;gap:20px;font-weight:600;font-size:15px}
+.nav .cta{background:var(--navy);color:var(--lime);padding:8px 14px;border-radius:6px}
+
+/* hero */
+.hero{position:relative;background:linear-gradient(rgba(20,45,60,.62),rgba(20,45,60,.62)),#2d4b57 url('https://www.lessonup.com/search/public/img/main-bg-blue.jpg') center/cover;color:#fff;text-align:center;padding:48px 16px 120px}
+.hero h1{font-family:var(--display);font-weight:400;font-size:64px;letter-spacing:.02em;margin:0;text-transform:uppercase;line-height:1.2;text-shadow:0 2px 6px rgba(0,0,0,.35)}
+.hero .bar{width:196px;height:4px;background:#fff;margin:14px auto 22px;border-radius:2px}
+.hero p{max-width:560px;margin:0 auto 26px;font-size:16px;text-align:justify}
+.search{display:flex;max-width:320px;margin:0 auto;border-radius:4px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.search input{flex:1;border:0;padding:10px 16px;font:inherit;font-size:15px;color:var(--text);min-width:0}
+.search input:focus{outline:none}
+.search button{border:0;background:var(--yellow);color:var(--text);font-weight:500;padding:0 16px}
+
+/* switch */
+.switch{display:inline-flex;margin-top:26px;background:rgba(0,19,67,.55);backdrop-filter:blur(6px);border-radius:999px;padding:5px;gap:4px;box-shadow:0 4px 18px rgba(0,0,0,.25)}
+.switch button{border:0;background:transparent;color:#fff;border-radius:999px;padding:10px 22px;font-weight:600;font-size:15px;display:flex;align-items:center;gap:10px;transition:background .2s,color .2s}
+.switch button .n{font-size:12px;font-weight:700;background:rgba(255,255,255,.2);border-radius:999px;padding:1px 8px;min-width:28px}
+.switch button[aria-selected=true]{background:#fff;color:var(--navy)}
+.switch button[aria-selected=true] .n{background:var(--navy);color:#fff}
+.switch button[data-view=originals][aria-selected=true] .n{background:var(--orig)}
+.switch button:focus-visible{outline:2px solid var(--lime);outline-offset:2px}
+.spark{width:16px;height:16px;flex:none}
+
+/* paneel */
+.panel{max-width:1000px;margin:-90px auto 48px;background:var(--card-bg);border-radius:6px;padding:28px 36px 40px;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.panel h2{font-family:var(--display);font-weight:400;color:var(--teal);font-size:35px;text-transform:uppercase;text-align:center;margin:8px 0 18px;letter-spacing:.02em}
+.panel h2.rule{border-bottom:2px solid #8fd9db;padding-bottom:12px;margin-top:40px}
+.intro{display:flex;gap:20px;align-items:center;background:var(--orig-soft);border-radius:6px;padding:18px 22px;margin-bottom:12px}
+.intro .badge-big{flex:none;width:52px;height:52px;border-radius:12px;background:var(--orig);display:grid;place-items:center;color:#fff}
+.intro .badge-big svg{width:28px;height:28px}
+.intro h3{margin:0 0 2px;font-size:18px;color:var(--navy)}
+.intro p{margin:0;font-size:14.5px}
+.intro.partner{background:#eef3ff}
+.intro.partner .badge-big{background:var(--blue)}
+
+/* grid */
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 10px}
+.grid .card:last-child:nth-child(odd){grid-column:1/-1}
+.card{position:relative;height:200px;overflow:hidden;color:#fff;display:block;background:#33434b}
+.card img.cover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.card:hover img.cover{transform:scale(1.04)}
+.card .glass{position:absolute;inset:0;background:rgba(0,0,0,.3)}
+.card .in{position:absolute;inset:0;display:flex;align-items:center;gap:16px;padding:0 24px 0 16px}
+.card .icon{flex:none;width:55px;height:55px;object-fit:contain;background:#fff}
+.card .icon.ph{display:grid;place-items:center;color:var(--navy);font-weight:700;font-size:20px}
+.card .name{font-family:var(--display);font-size:21px;text-transform:uppercase;line-height:1.15;letter-spacing:.01em}
+.card .sub{font-size:13.5px;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .tag{position:absolute;top:10px;right:10px;background:var(--orig);color:#fff;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 9px;border-radius:999px;display:flex;align-items:center;gap:5px}
+.card .tag svg{width:11px;height:11px}
+
+.empty{text-align:center;padding:30px 10px;color:var(--muted)}
+.empty button{border:0;background:none;color:var(--blue);font-weight:600;text-decoration:underline;padding:0}
+.hint{text-align:center;font-size:14px;color:var(--muted);margin:-6px 0 14px}
+.hint button{border:0;background:none;color:var(--blue);font-weight:600;padding:0;text-decoration:underline}
+
+footer{background:#fff;border-top:1px solid var(--line);padding:24px;display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:center;font-size:14px;color:var(--muted)}
+footer .logo{color:var(--blue);display:flex}
+footer .logo svg{height:22px;width:auto}
+
+.pv{margin:0 0 14px;padding:10px 14px;border-radius:6px;background:#fff6d6;border:1px solid #f1d77a;font-size:14px;color:#6b5300}
+.pv a{color:var(--blue);font-weight:600;text-decoration:underline}
+footer .f-admin{color:var(--blue);font-weight:600}
+
+/* beheer */
+.admin{max-width:1000px;margin:28px auto 48px;background:#fff;border-radius:6px;padding:28px 32px 32px}
+.a-head{display:flex;justify-content:space-between;gap:24px;align-items:flex-start}
+.a-head h1{margin:0 0 6px;font-size:26px;color:var(--navy)}
+.a-head p{margin:0;max-width:620px;font-size:14.5px}
+.a-back{white-space:nowrap;color:var(--blue);font-weight:600;font-size:14px;padding-top:6px}
+.a-bar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:22px 0 12px}
+.a-bar input{flex:1;min-width:200px;border:1px solid var(--line);border-radius:6px;padding:9px 12px;font:inherit;font-size:15px;color:var(--text)}
+.a-filter{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.a-filter button{border:0;background:#fff;padding:8px 14px;font-size:14px;color:var(--text)}
+.a-filter button+button{border-left:1px solid var(--line)}
+.a-filter button[aria-pressed=true]{background:var(--navy);color:#fff}
+.a-count{font-size:14px;color:var(--muted);margin-left:auto}
+.a-list{list-style:none;margin:0;padding:0;border:1px solid var(--line);border-radius:6px;max-height:60vh;overflow:auto}
+.a-list li{display:grid;grid-template-columns:40px 1fr auto auto;gap:14px;align-items:center;padding:8px 14px;border-bottom:1px solid var(--line)}
+.a-list li:last-child{border-bottom:0}
+.a-list li.is-orig{background:var(--orig-soft)}
+.a-list li.none{display:block;color:var(--muted);text-align:center;padding:20px}
+.a-list img{width:40px;height:40px;object-fit:contain;background:#f6f6f6;border-radius:4px}
+.a-list .t{min-width:0}
+.a-list .t b{display:block;font-weight:600;font-size:14.5px;color:var(--navy);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.a-list .t span{font-size:12px;color:var(--muted)}
+.sw,.chk{display:flex;align-items:center;gap:8px;font-size:13.5px;cursor:pointer;user-select:none;white-space:nowrap}
+.sw input{position:absolute;opacity:0;width:1px;height:1px}
+.sw span{width:38px;height:22px;border-radius:999px;background:#cfc9c8;position:relative;transition:background .2s;flex:none}
+.sw span::after{content:'';position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;transition:transform .2s}
+.sw input:checked+span{background:var(--orig)}
+.sw input:checked+span::after{transform:translateX(16px)}
+.sw input:focus-visible+span{outline:2px solid var(--blue);outline-offset:2px}
+.chk{width:110px}
+.chk input{width:16px;height:16px;accent-color:var(--blue)}
+.a-actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end;align-items:center;margin-top:16px}
+.a-dirty{margin-right:auto;font-size:13.5px;color:var(--orig);font-weight:600}
+.a-actions button{border-radius:6px;padding:9px 16px;font-weight:600;font-size:14px}
+.ghost{background:#fff;border:1px solid var(--line);color:var(--navy)}
+.primary{background:var(--navy);border:1px solid var(--navy);color:var(--lime)}
+.a-actions button:disabled{opacity:.45;cursor:default}
+.a-status{margin:12px 0 0;padding:10px 14px;border-radius:6px;background:#f1f4fb;font-size:14px}
+.a-status.ok{background:#e8f8ee;color:#1d6b3a}
+.a-status.err{background:#fdecea;color:#a3271b}
+.a-token{margin-top:20px;font-size:14px;border-top:1px solid var(--line);padding-top:14px}
+.a-token summary{cursor:pointer;font-weight:600;color:var(--navy)}
+.a-token a{color:var(--blue);text-decoration:underline}
+.a-token code{background:#f3f3f3;padding:1px 5px;border-radius:3px;font-size:13px}
+.a-tokenin{display:flex;gap:8px}
+.a-tokenin input{flex:1;min-width:0;border:1px solid var(--line);border-radius:6px;padding:8px 12px;font:inherit;font-size:14px}
+.a-tokenin button{border-radius:6px;padding:8px 14px;font-weight:600}
+.linkbtn{border:0;background:none;color:var(--blue);text-decoration:underline;padding:0}
+
+[hidden]{display:none!important}
+
+@media (max-width:860px){
+  .nav ul,.nav .right .login{display:none}
+  .nav{justify-content:space-between}
+}
+@media (max-width:640px){
+  .hero{padding:32px 16px 110px}
+  .hero h1{font-size:40px}
+  .hero p{text-align:left;font-size:15px}
+  .switch{display:flex;width:100%;max-width:420px;margin-left:auto;margin-right:auto}
+  .switch button{flex:1;justify-content:center;padding:10px 8px;font-size:14px;gap:6px}
+  .switch .spark{display:none}
+  .panel{margin:-80px 16px 32px;padding:20px 14px 28px}
+  .panel h2{font-size:27px}
+  .grid{grid-template-columns:1fr}
+  .grid .card:last-child:nth-child(odd){grid-column:auto}
+  .card{height:170px}
+  .card .name{font-size:18px}
+  .intro{flex-direction:column;align-items:flex-start;gap:10px}
+  .admin{margin:16px;padding:20px 14px}
+  .a-head{flex-direction:column;gap:10px}
+  .a-list li{grid-template-columns:32px 1fr;row-gap:6px}
+  .a-list img{width:32px;height:32px}
+  .a-list .sw{grid-column:2}
+  .a-list .chk{grid-column:2;width:auto}
+  .a-count{margin-left:0;width:100%}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="mock"><b>Mockup</b> · voorstel voor een schakelaar tussen partnerkanalen en LessonUp Originals · kaarten openen het echte kanaal</div>
+
+<nav class="nav">
+  <a class="logo" href="https://www.lessonup.com/nl/channels" aria-label="LessonUp">__LOGO__</a>
+  <ul>
+    <li><a href="https://www.lessonup.com/site/nl/docenten">Wat is LessonUp</a></li>
+    <li><a href="https://www.lessonup.com/nl/lessons/nl">Lesbibliotheek</a></li>
+    <li><a class="on" href="#">Kanalen</a></li>
+    <li><a href="https://www.lessonup.com/nl/app/">AI-tools</a></li>
+  </ul>
+  <div class="right"><a class="login" href="https://www.lessonup.com/nl/app/login">Inloggen</a><a class="cta" href="https://www.lessonup.com/nl/app/register">Start gratis</a></div>
+</nav>
+
+<header class="hero">
+  <h1>Leskanalen</h1>
+  <div class="bar"></div>
+  <p>De leskanalen van LessonUp bieden kant-en-klare lessen die je zelf kunt aanpassen en arrangeren, zodat ze precies aansluiten bij jouw manier van lesgeven.</p>
+  <form class="search" role="search" onsubmit="event.preventDefault()">
+    <input id="q" type="search" placeholder="Zoek hier je leskanaal" aria-label="Zoek een leskanaal" autocomplete="off">
+    <button type="submit">Zoeken</button>
+  </form>
+  <div class="switch" role="tablist" aria-label="Soort kanalen">
+    <button role="tab" data-view="partners" aria-selected="true" aria-controls="panel">
+      <svg class="spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      Partnerkanalen <span class="n" id="n-partners"></span>
+    </button>
+    <button role="tab" data-view="originals" aria-selected="false" aria-controls="panel">
+      <svg class="spark" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2H22l-6.2 4.5 2.4 7.3L12 16.5 5.8 21l2.4-7.3L2 9.2h7.6z"/></svg>
+      LessonUp Originals <span class="n" id="n-originals"></span>
+    </button>
+  </div>
+</header>
+
+<main class="panel" id="panel" role="tabpanel">
+  <p class="pv" id="pv" hidden>Je bekijkt een voorbeeld met wijzigingen die nog niet gepubliceerd zijn. <a href="#beheer">Terug naar beheer</a></p>
+  <div class="intro partner" id="intro-partners">
+    <div class="badge-big"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+    <div><h3>Partnerkanalen</h3><p>Lessen van musea, stichtingen, omroepen en andere organisaties, gratis beschikbaar in LessonUp.</p></div>
+  </div>
+  <div class="intro" id="intro-originals" hidden>
+    <div class="badge-big"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2H22l-6.2 4.5 2.4 7.3L12 16.5 5.8 21l2.4-7.3L2 9.2h7.6z"/></svg></div>
+    <div><h3>LessonUp Originals</h3><p>Lessen en complete leerlijnen die het educatieteam van LessonUp zelf maakt: aansluitend op het curriculum, met docentnotities en direct te gebruiken.</p></div>
+  </div>
+
+  <p class="hint" id="hint" hidden></p>
+
+  <section id="sec-featured">
+    <h2>Uitgelicht</h2>
+    <div class="grid" id="featured"></div>
+  </section>
+  <section>
+    <h2 class="rule" id="all-title">Alle leskanalen</h2>
+    <div class="grid" id="all"></div>
+    <div class="empty" id="empty" hidden></div>
+  </section>
+</main>
+
+<section class="admin" id="admin" hidden>
+  <div class="a-head">
+    <div>
+      <h1>Beheer: Originals</h1>
+      <p>Zet per kanaal aan of het een LessonUp Original is, en of het bovenaan staat bij <i>Uitgelicht</i>. Klik daarna op <b>Publiceren</b>; iedereen met de link ziet de nieuwe indeling na ongeveer een minuut.</p>
+    </div>
+    <a class="a-back" href="#originals">← Terug naar de kanalen</a>
+  </div>
+
+  <div class="a-bar">
+    <input id="aq" type="search" placeholder="Zoek een kanaal" aria-label="Zoek een kanaal in beheer" autocomplete="off">
+    <div class="a-filter" role="group" aria-label="Filter">
+      <button type="button" data-f="all">Alle</button>
+      <button type="button" data-f="orig">Originals</button>
+      <button type="button" data-f="partner">Partners</button>
+    </div>
+    <span class="a-count" id="a-count"></span>
+  </div>
+
+  <ul class="a-list" id="a-list"></ul>
+
+  <div class="a-actions">
+    <span class="a-dirty" id="a-dirty" hidden>Niet-gepubliceerde wijzigingen</span>
+    <button type="button" class="ghost" id="a-reset">Ongedaan maken</button>
+    <button type="button" class="ghost" id="a-preview">Bekijk voorbeeld</button>
+    <button type="button" class="ghost" id="a-download">Download config.json</button>
+    <button type="button" class="primary" id="a-save">Publiceren</button>
+  </div>
+  <p class="a-status" id="a-status" role="status" hidden></p>
+
+  <details class="a-token">
+    <summary>GitHub-toegang voor publiceren</summary>
+    <div id="a-token-row">
+      <p>Publiceren schrijft <code>config.json</code> in de repo <code>gsleraar-hue/lessonup-kanalen-mockup</code>. Daarvoor heb je een <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a> nodig met alleen toegang tot die repo en de rechten <i>Contents: Read and write</i>. Het token blijft alleen in deze browser bewaard.</p>
+      <div class="a-tokenin"><input id="a-token" type="password" placeholder="github_pat_…" aria-label="GitHub-token" autocomplete="off"><button type="button" class="ghost" id="a-token-save">Bewaar</button></div>
+    </div>
+    <p id="a-token-set" hidden>Er is een token bewaard in deze browser. <button type="button" class="linkbtn" id="a-token-clear">Verwijder token</button></p>
+  </details>
+</section>
+
+<footer>
+  <span class="logo">__LOGO__</span>
+  <span>Mockup · inhoud overgenomen van lessonup.com/nl/channels</span>
+  <a href="#beheer" class="f-admin">Beheer Originals</a>
+</footer>
+
+<script>
+/* Repo waar config.json staat (voor publiceren vanuit beheer) */
+const REPO = { owner: 'gsleraar-hue', name: 'lessonup-kanalen-mockup', branch: 'main', path: 'config.json' };
+let CHANNELS = [], ORIGINALS = [], FEATURED = { partners: [], originals: [] }, sets = {};
+let PUBLISHED = null;      // laatst gepubliceerde config
+let previewing = false;    // toont de pagina een niet-gepubliceerd voorbeeld?
+const STAR = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2H22l-6.2 4.5 2.4 7.3L12 16.5 5.8 21l2.4-7.3L2 9.2h7.6z"/></svg>';
+const isOrig = c => ORIGINALS.includes(c.slug);
+function applyConfig(cfg) {
+  ORIGINALS = cfg.originals || [];
+  FEATURED = { partners: cfg.featured?.partners || [], originals: cfg.featured?.originals || [] };
+  sets = { partners: CHANNELS.filter(c => !isOrig(c)), originals: CHANNELS.filter(isOrig) };
+  document.getElementById('n-partners').textContent = sets.partners.length;
+  document.getElementById('n-originals').textContent = sets.originals.length;
+}
+
+const esc = s => String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const card = c => `
+  <a class="card" href="https://www.lessonup.com/nl/channel/${encodeURIComponent(c.slug)}" target="_blank" rel="noopener">
+    <img class="cover" src="${esc(c.cover)}" alt="" loading="lazy" style="object-position:center ${c.pos}%">
+    <div class="glass"></div>
+    ${isOrig(c) ? `<span class="tag">${STAR}Original</span>` : ''}
+    <div class="in">
+      ${c.icon ? `<img class="icon" src="${esc(c.icon)}" alt="" loading="lazy">` : `<span class="icon ph">${esc(c.name.charAt(0))}</span>`}
+      <div><div class="name">${esc(c.name)}</div>${c.sub ? `<div class="sub">${esc(c.sub)}</div>` : ''}</div>
+    </div>
+  </a>`;
+
+const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+const match = (c, q) => !q || norm(c.name + ' ' + c.sub + ' ' + c.slug).includes(q);
+
+const hashView = () => location.hash === '#originals' ? 'originals' : location.hash === '#beheer' ? 'beheer' : 'partners';
+let view = hashView();
+const $q = document.getElementById('q');
+
+function render() {
+  const admin = view === 'beheer';
+  document.getElementById('panel').hidden = admin;
+  document.getElementById('admin').hidden = !admin;
+  document.querySelector('.hero').hidden = admin;
+  if (admin) return renderAdmin();
+  document.getElementById('pv').hidden = canon({ originals: ORIGINALS, featured: FEATURED }) === canon(PUBLISHED);
+  const q = norm($q.value.trim());
+  const list = sets[view];
+  const feat = FEATURED[view].map(s => list.find(c => c.slug === s)).filter(Boolean);
+  const rest = q ? list.filter(c => match(c, q)) : list.filter(c => !feat.includes(c));
+
+  document.querySelectorAll('.switch button').forEach(b => b.setAttribute('aria-selected', b.dataset.view === view));
+  document.getElementById('intro-partners').hidden = view !== 'partners';
+  document.getElementById('intro-originals').hidden = view !== 'originals';
+  document.getElementById('sec-featured').hidden = !!q || !feat.length;
+  document.getElementById('featured').innerHTML = feat.map(card).join('');
+  document.getElementById('all-title').textContent = q
+    ? `${rest.length} ${rest.length === 1 ? 'resultaat' : 'resultaten'}`
+    : (view === 'originals' ? 'Alle Originals' : 'Alle partnerkanalen');
+  document.getElementById('all').innerHTML = rest.map(card).join('');
+
+  const other = view === 'partners' ? 'originals' : 'partners';
+  const otherLabel = other === 'originals' ? 'LessonUp Originals' : 'Partnerkanalen';
+  const otherHits = q ? sets[other].filter(c => match(c, q)).length : 0;
+  const hint = document.getElementById('hint'), empty = document.getElementById('empty');
+  empty.hidden = !(q && !rest.length);
+  hint.hidden = !(q && otherHits && rest.length);
+  const link = `<button type="button" data-go="${other}">${otherHits} in ${otherLabel}</button>`;
+  if (!empty.hidden) empty.innerHTML = otherHits ? `Geen kanalen gevonden in deze weergave. Wel ${link}.` : 'Geen kanalen gevonden.';
+  if (!hint.hidden) hint.innerHTML = `Ook ${link}`;
+}
+
+function setView(v) {
+  view = v;
+  history.replaceState(null, '', '#' + v);
+  render();
+}
+document.querySelectorAll('.switch button').forEach(b => b.addEventListener('click', () => setView(b.dataset.view)));
+document.querySelector('.switch').addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+    const v = view === 'partners' ? 'originals' : 'partners';
+    setView(v); document.querySelector(`.switch [data-view=${v}]`).focus();
+  }
+});
+document.addEventListener('click', e => { const g = e.target.closest('[data-go]'); if (g) setView(g.dataset.go); });
+$q.addEventListener('input', render);
+window.addEventListener('hashchange', () => { view = hashView(); render(); window.scrollTo(0, 0); });
+
+/* ---------- Beheer ---------- */
+let draft = null;          // {originals:Set, featured:{partners:[],originals:[]}}
+let savedSha = null;       // sha van config.json op GitHub
+let adminFilter = 'all';
+const $ = id => document.getElementById(id);
+const toDraft = (cfg = PUBLISHED) => ({ originals: new Set(cfg.originals), featured: { partners: [...cfg.featured.partners], originals: [...cfg.featured.originals] } });
+const canon = cfg => JSON.stringify({ originals: CHANNELS.map(c => c.slug).filter(s => cfg.originals.includes(s)), featured: { partners: cfg.featured.partners, originals: cfg.featured.originals } });
+const draftCfg = () => ({
+  originals: CHANNELS.map(c => c.slug).filter(s => draft.originals.has(s)),
+  featured: {
+    partners: draft.featured.partners.filter(s => !draft.originals.has(s)),
+    originals: draft.featured.originals.filter(s => draft.originals.has(s))
+  }
+});
+const dirty = () => !!draft && canon(draftCfg()) !== canon(PUBLISHED);
+
+function renderAdmin() {
+  if (!draft) draft = toDraft();
+  const q = norm($('aq').value.trim());
+  const rows = CHANNELS.filter(c => match(c, q)).filter(c =>
+    adminFilter === 'all' || (adminFilter === 'orig') === draft.originals.has(c.slug));
+  const cfg = draftCfg();
+  $('a-count').textContent = `${cfg.originals.length} Originals · ${CHANNELS.length - cfg.originals.length} partnerkanalen`;
+  $('a-list').innerHTML = rows.map(c => {
+    const o = draft.originals.has(c.slug);
+    const fkey = o ? 'originals' : 'partners';
+    const f = draft.featured[fkey].includes(c.slug);
+    return `<li class="${o ? 'is-orig' : ''}">
+      <img src="${esc(c.icon || c.cover)}" alt="" loading="lazy">
+      <div class="t"><b>${esc(c.name)}</b><span>${esc(c.slug)}</span></div>
+      <label class="sw"><input type="checkbox" data-orig="${esc(c.slug)}" ${o ? 'checked' : ''}><span></span>Original</label>
+      <label class="chk"><input type="checkbox" data-feat="${esc(c.slug)}" ${f ? 'checked' : ''}>Uitgelicht</label>
+    </li>`;
+  }).join('') || '<li class="none">Geen kanalen gevonden.</li>';
+  document.querySelectorAll('.a-filter button').forEach(b => b.setAttribute('aria-pressed', b.dataset.f === adminFilter));
+  $('a-save').disabled = !dirty();
+  $('a-reset').disabled = !dirty();
+  $('a-dirty').hidden = !dirty();
+  $('a-token-row').hidden = !!getToken();
+  $('a-token-set').hidden = !getToken();
+}
+
+const getToken = () => { try { return localStorage.getItem('lu-mockup-token') || ''; } catch { return ''; } };
+const setToken = t => { try { t ? localStorage.setItem('lu-mockup-token', t) : localStorage.removeItem('lu-mockup-token'); } catch {} };
+
+function status(msg, kind) { const s = $('a-status'); s.textContent = msg; s.className = 'a-status ' + (kind || ''); s.hidden = !msg; }
+
+document.addEventListener('change', e => {
+  const t = e.target;
+  if (t.dataset.orig) {
+    const s = t.dataset.orig;
+    if (t.checked) { draft.originals.add(s); draft.featured.partners = draft.featured.partners.filter(x => x !== s); }
+    else { draft.originals.delete(s); draft.featured.originals = draft.featured.originals.filter(x => x !== s); }
+    status(''); renderAdmin();
+  }
+  if (t.dataset.feat) {
+    const s = t.dataset.feat, k = draft.originals.has(s) ? 'originals' : 'partners';
+    draft.featured[k] = t.checked ? [...draft.featured[k], s] : draft.featured[k].filter(x => x !== s);
+    status(''); renderAdmin();
+  }
+});
+$('aq').addEventListener('input', renderAdmin);
+document.querySelectorAll('.a-filter button').forEach(b => b.addEventListener('click', () => { adminFilter = b.dataset.f; renderAdmin(); }));
+$('a-reset').addEventListener('click', () => { draft = toDraft(); applyConfig(PUBLISHED); previewing = false; status(''); renderAdmin(); });
+$('a-preview').addEventListener('click', () => { applyConfig(draftCfg()); previewing = dirty(); setView('originals'); });
+$('a-download').addEventListener('click', () => {
+  const blob = new Blob([JSON.stringify(draftCfg(), null, 2) + '\n'], { type: 'application/json' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'config.json'; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+});
+$('a-token-save').addEventListener('click', () => { const v = $('a-token').value.trim(); if (v) { setToken(v); $('a-token').value = ''; renderAdmin(); } });
+$('a-token-clear').addEventListener('click', () => { setToken(''); renderAdmin(); });
+
+const b64 = s => btoa(String.fromCharCode(...new TextEncoder().encode(s)));
+$('a-save').addEventListener('click', async () => {
+  const token = getToken();
+  if (!token) { status('Vul eerst een GitHub-token in (zie hieronder), of download config.json.', 'err'); $('a-token').focus(); return; }
+  const api = `https://api.github.com/repos/${REPO.owner}/${REPO.name}/contents/${REPO.path}`;
+  const h = { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' };
+  $('a-save').disabled = true; status('Bezig met publiceren…');
+  try {
+    const cur = await fetch(`${api}?ref=${REPO.branch}&t=${Date.now()}`, { headers: h, cache: 'no-store' });
+    if (cur.status === 401) throw new Error('Het token wordt niet geaccepteerd. Controleer of het nog geldig is.');
+    const sha = cur.ok ? (await cur.json()).sha : undefined;
+    const cfg = draftCfg();
+    const res = await fetch(api, { method: 'PUT', headers: h, body: JSON.stringify({
+      message: `Originals bijgewerkt via beheer (${cfg.originals.length} Originals)`,
+      content: b64(JSON.stringify(cfg, null, 2) + '\n'), branch: REPO.branch, sha }) });
+    if (!res.ok) { const j = await res.json().catch(() => ({})); throw new Error(res.status === 403 || res.status === 404 ? 'Dit token mag niet schrijven in de repo. Geef het token schrijfrechten op Contents.' : (j.message || 'HTTP ' + res.status)); }
+    PUBLISHED = cfg; applyConfig(cfg); draft = toDraft(); previewing = false;
+    status('Gepubliceerd. Over ongeveer een minuut ziet iedereen met de link de nieuwe indeling.', 'ok');
+  } catch (err) { status('Publiceren mislukt: ' + err.message, 'err'); }
+  renderAdmin();
+});
+
+/* ---------- Start ---------- */
+(async function init() {
+  try {
+    const [ch, cfg] = await Promise.all([
+      fetch('channels.json').then(r => r.json()),
+      fetch('config.json?t=' + Date.now(), { cache: 'no-store' }).then(r => r.json())
+    ]);
+    CHANNELS = ch; PUBLISHED = { originals: cfg.originals || [], featured: { partners: cfg.featured?.partners || [], originals: cfg.featured?.originals || [] } };
+    applyConfig(PUBLISHED);
+  } catch (e) {
+    document.getElementById('all').innerHTML = '<p class="empty">Kon de kanalen niet laden.</p>';
+    return;
+  }
+  render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,930 @@
+[
+{
+"slug": "26000gezichten",
+"name": "26.000 gezichten",
+"sub": "Maak kennis met de wereld van jonge asielzoekers",
+"cover": "https://lh3.googleusercontent.com/ViDyQyzT0_CdMJEE7vCcS2KvI62hC7TgcAOnOj-63_Br6Zv832GsZt01h2TB1YiUkfwm53o1iKNbS9hiW6WiKFvX5uU5wRWg3wRn4SB4=s500",
+"icon": "https://lh3.googleusercontent.com/H0fa2gjEG6vZphJ8zTKLhmgjn-KvVWX6hYtL3ptO-uNzQ3d5w97taHunOGpWg7fNt3mIH5Jb4HGyvY_LCZhVUvQS_7qIDDAacxd2mg=s70",
+"pos": 50
+},
+{
+"slug": "voedingscentrum",
+"name": "Lesmaterialen van het Voedingscentrum",
+"sub": "Voor het voortgezet onderwijs en mbo",
+"cover": "https://lh3.googleusercontent.com/dnkJNzFsNO-n1d5zQ8SEy6oRwbN89LsuHUAlqvgmNiC59Gnlexq4FzXw-5bZK5Yo4B2vgIQke1Ue8AFvgOeI5v-vjEo2I8lfzE1NXA=s500",
+"icon": "https://lh3.googleusercontent.com/ATvPUcIWbNeZTHEfcfplOSicKk-KEQETZY50EPdBYeetm5hHWVNEaVRzprUybHrt6SeQV0OyDISEhW1gH64cbUAbYg6SntxmQMlyEQ=s70",
+"pos": 50
+},
+{
+"slug": "wo2net",
+"name": "Oorlogsbronnen in de les",
+"sub": "Oorlogsbronnen.nl bevat de grootste collectie WO2-bronnen in Nederland.",
+"cover": "https://lh3.googleusercontent.com/HMZJjwBRBgXXxB2u0a__wY6gXdm48xgDBD0HeVP3EFsOATW1zhKnucdDsg7XlTXxnwV2hKAW29DXcBp37IXCVFAEDO3RDD_x6M8dUFQ=s500",
+"icon": "https://lh3.googleusercontent.com/OZG6sdtKi_Vu7QrrN6tIQ9ekJ7hoI2CzESlj5sMTCL2h-2c7otmgXT6bo18u4mtpzJzl2vUPLTaRuc3Rjuha34ft_o6NvmteAbH_j-8=s70",
+"pos": 7
+},
+{
+"slug": "4tuschools",
+"name": "4TU.Schools",
+"sub": "Versterk de tech-generatie!",
+"cover": "https://lh3.googleusercontent.com/HNVQiaTOxFdh6yPvP2kOneUqIHzSecucvH-ohqHdvjeC_Do-MBfnKUK5d56Y6ZRFQ6RU2bH0uTrjas6ty7hUv7oPQaRxvmyxuCONaA=s500",
+"icon": "https://lh3.googleusercontent.com/W7iXuiREwkgSTT_pAqKONfxP7w4S4Pasz0ZZoRs4Ud4B_U-nMcoftbf79E40vZRv_k0394xlwtOutXwFQI0h9TPEHkFwDI6tOxi2qaAZ=s70",
+"pos": 0
+},
+{
+"slug": "praatje",
+"name": "Minicursus Praatje",
+"sub": "",
+"cover": "https://lh3.googleusercontent.com/vo1-pgP7o4kOvevTIJW5Y62EyMc7gVxc_ftiWlmGaWVyidgY1PUUln8-Px1P8FhwgxV89bfaj7zo106V1yEuvZ_54tLnEHMx6ZcdxQ=s500",
+"icon": "https://lh3.googleusercontent.com/2nZ9F6oijs6rTUWDjOeCVY_xJgkxSvMwnHSD55pxIL-T78YTR2VElmFMnTuaGEx7QaNaP1319876886L0lN4ktTpLuzzRELSwjfeMWSs=s70",
+"pos": 50
+},
+{
+"slug": "spinoza",
+"name": "Spinoza",
+"sub": "Stap in de wereld van een revolutionair denker",
+"cover": "https://lh3.googleusercontent.com/UlT6ybMSnqWxXqrl7VGCbEdlzhBzdewB0qFojZvWm92FlueDaRNUwIw_gllvRSCKWp-18qujTsovQUfjWpFlHP-o_aH-Pgt4-JbOoio=s500",
+"icon": "https://lh3.googleusercontent.com/HsRiRUcXzXoydRBISPnaVpkVV5x6JrbWs3lsDeKWEp3seA8LVJVIT4-QIh1sWhKcV60Atnpk7tEjRBkj_pMLC6kfbxs0o5iv1pPjFk0=s70",
+"pos": 50
+},
+{
+"slug": "schoolblocks",
+"name": "Schoolblocks",
+"sub": "Schoolblocks maakt toekomstgericht lesmateriaal voor scholen",
+"cover": "https://lh3.googleusercontent.com/7a9arA9CoxrRFiEziVf_f35PMZBUQSDtyqYlcYXz5qyqDbL8McjlOiWwbQJ-iv4__NAbpH6URqNG3oIwqnvyz7uWNs4HtGFbgoP3HYQQ=s500",
+"icon": "https://lh3.googleusercontent.com/R1ybyGeFfQzigfUniw0mxF1L7BZ_CoO-OY4wxoIZJu5BaJNfnC9qok7oSu5MVLgCPvKO6jRj0rOsP7osBDz-6ht8Kgo1lIoVidwg1f8=s70",
+"pos": 50
+},
+{
+"slug": "atmt",
+"name": "ATMT",
+"sub": "Ancient Truth in Modern Times",
+"cover": "https://lh3.googleusercontent.com/cLVYXvGIoKjc9I5sOLJ4jVeC5Ssrqu_nGp9KnV3BPNspCDMRvAni6qoVXtmxUDkC4L88x2_1PwK2DXVvzByos8oKZPtn17mXaHAyRFA=s500",
+"icon": "https://lh3.googleusercontent.com/aN4T-16lstZVrQN9_1jIs9mBH-0iYX1U7PqrVOH89PqL_6YBGOeM-HmiNW7KXIUfht9Dd2R-RpnlpONWOdnMZNPQ9V25JB1vltnV4a8=s70",
+"pos": 50
+},
+{
+"slug": "tistaal",
+"name": "TisTaal by Dutchily E.E.",
+"sub": "Taalonderwijs dat motiveert, activeert en inspireert. Digitale lessen voor sterk taalonderwijs in het primair en voortgezet onderwijs. Ontwikkeld voor:  NTC NT2 Primair onderwijs Voortgezet onderwijs",
+"cover": "https://lh3.googleusercontent.com/uRBfIcObyu9GLWlLycDtFN016zoUu_yWCNdveeRGhAAtANNZTj6SrPDtP9d7Xp8Wh4fV_aG0xf8Tl9YetBDJ23981XnunkAp_DBKmA=s500",
+"icon": "https://lh3.googleusercontent.com/LHTNGCvrQVLkNPhV3LnSZpg7TEyC3huwLvpMP2wmMJKWuNcJIdR2Qd5bFl2rr_tiRbMLdNP1-2wjuMbqP-0D5-gz_YAuJ0Fc85DmYbA=s70",
+"pos": 34
+},
+{
+"slug": "stadslab",
+"name": "Stadslab",
+"sub": "Het programma om écht verschil te maken",
+"cover": "https://lh3.googleusercontent.com/oXwzARQqyybRbZfsVmEU9WDDnro52A2dgvhiVOMXTMLu8ez7kvCezSCYovv7e8WEQtIJK8sAs1uYBgQKTs6tO8tI8RfE5nbF_kPrAQ=s500",
+"icon": "https://lh3.googleusercontent.com/FuUc0k54NiEjKjPVVzcRQZZh5GaBgEG8qMIiFwqy5q9Ojrz4Iac9zNylMGJifSRSrctONfq92Kh3LlcQq2Vn4Ban8Mbe2YoT34WWZpo=s70",
+"pos": 40
+},
+{
+"slug": "vizier",
+"name": "Vizier",
+"sub": "Gericht op discriminatie & diversiteit",
+"cover": "https://lh3.googleusercontent.com/XLzA235huxLXvm9QyxR6s7FqVrge5M3FUulYJt9e5AdKTXjsLAL8U4Nsn5ihV_6Hy9TO2LCLbBzWgNhl0S9aNaf6z_8dNkgwvhgDofA=s500",
+"icon": "https://lh3.googleusercontent.com/7d8oq9nDo-5WtPLOlAisoWhQJDoYabCUeZ3-Hhs_PQ956IU0fl-g27VEWuKLKFVeeXIop-33Mo6Sco05fiXtXaik36MMFTgebc-qYCg=s70",
+"pos": 50
+},
+{
+"slug": "cultureel-dordt",
+"name": "Ontdek kunst, cultuur en erfgoed in Dordrecht",
+"sub": "Dordrechts Museum // Hof van Nederland // Huis Van Gijn // Museum 1940-1945 // Nationaal Onderwijsmuseum // The Movies Dordrecht",
+"cover": "https://lh3.googleusercontent.com/s7Hik_KhZABhusI9nZ1jZyiJcqa7odyvOoRSzaM8k-v3l2MAEnHgDFzGyGW0OTe_aWhtfweX9ma6D37Rx-0LikpvWrp1lCoqVBDuqQ=s500",
+"icon": "https://lh3.googleusercontent.com/YZxCIdYUNaAnT8jpHSzdJUid4iYlYtc-pvW6xQIAaXGKjJFdKfpKeTqCpEZGjsdTxaj9SSUoXOpk0H4ts_ifk0uOHL8VUaFgQzfUczk=s70",
+"pos": 50
+},
+{
+"slug": "ggdhaaglanden",
+"name": "Haagse Aanpak Gezond Gewicht",
+"sub": "Samen maken we gezond gewoon",
+"cover": "https://lh3.googleusercontent.com/JQo3Q467vAEDr0KK1LPyn_VVrfgACkXFDRdndoeqnqRIbd5g9DWfpQnPgbnBQpRRtB0AjcbNRkilreXrjTPNNKg0LZrfHWcVDx_E0XU=s500",
+"icon": "https://lh3.googleusercontent.com/ZkXi2DUFex5qMkQ8btUqAwa369dWCgi_LuHFYFCWEV3n_ono_TuYpuT0IupT9EdNaDaMJvh0kGgMNcebrjRO64yi272lYg2xbIc-IbI=s70",
+"pos": 50
+},
+{
+"slug": "boijmans",
+"name": "Museum Boijmans Van Beuningen",
+"sub": "Lessen voor in de klas",
+"cover": "https://lh3.googleusercontent.com/vVa-FT9Ie-GbkwaqQzC8wrgdqaKMUJ2-WHAxrVmaMuQamd3zzgsRkFvjVgRmTWSmLIodV0BdbxfPTqxpPj0J4SzddKIGZfmK6M4c4naQ=s500",
+"icon": "https://lh3.googleusercontent.com/8sf17OoNpmZ9K0rcp6PYddFksD8p5LWO5hkEiAHTFcg9DibDMXQa_bL3NDXdXWLpBP2j7T2oFO4YlBQubcsWcgqEHGVieGolyhbM8YT8=s70",
+"pos": 40
+},
+{
+"slug": "clubzien",
+"name": "Club Zien",
+"sub": "Museumbelevingen voor vmbo",
+"cover": "https://lh3.googleusercontent.com/2U4NSgkPshlzyzILGu2cr1qkNJyoJQU5S7ZqqwCcLbgebM4Hf8XI_yNQJEhrxMaqMB43yo3nvypm5zdhzkKYUfJdlUw9eWoTxLe_h0A=s500",
+"icon": "https://lh3.googleusercontent.com/BB70Idw2FJrp3uz7VbpFJP9nGatqFuC-xR38HzwpcLZ6kJDHp4KqpjZOzAO6BqqHQ4gKU0j7ESMaPXVcngJdhobw5SU7XJD_r_7P4Uqd=s70",
+"pos": 92
+},
+{
+"slug": "lateralsikgrootben",
+"name": "Later als ik groot ben",
+"sub": "Ontdek jouw droombaan bij Later als ik Groot ben",
+"cover": "https://lh3.googleusercontent.com/u9j2STaNfTV2Q8MzTjFIWGS_wQo6mIMTgYQOXw_5pxauIK1wcaCIqbc4wOuGnbsJCJthG8NsSmxdw57yr3cjZ1744swDgkT6oJ_BkQI=s500",
+"icon": "https://lh3.googleusercontent.com/rwvHsqhxa3iJYSOyPVEeLrMOjoXpEmLSDMZZ2xCQnVPblHiLI88IG66LuzicC0KD_ttZsDyGt2DhCOZ7nopmd1wLvRWWdSgdS7B4oD8=s70",
+"pos": 0
+},
+{
+"slug": "filmeducatie",
+"name": "Filmeducatie",
+"sub": "Leer film spreken",
+"cover": "https://lh3.googleusercontent.com/VZzfHW0cR2N1xsgolswXI8uFZ6BN5Aw_OR8dmgjMxkTIoPEwZQJckQYoneP-UUXI3DhfeKm13Nlwz8_jzK-z02J8lA_kgjHD1Wm1nbs=s500",
+"icon": "https://lh3.googleusercontent.com/fNmhNnz_XE4hkRkBm3zN3cN3hwx4xuZ-3JcKtfXi-1iQBb9msWce7FBCnzc13klMEI3BwHt94MLSCylDftPTucSIDiE=s70",
+"pos": 70
+},
+{
+"slug": "filterbubbel",
+"name": "Filterbubbel.nl",
+"sub": "Lessenserie over algoritmes, filterbubbels, desinformatie en wat dit doet met jouw mening, brein en emoties.",
+"cover": "https://lh3.googleusercontent.com/cYpQxS-zjx4CCD6COnupw66D_YJIdwK9lGMW7rvp5rbXfUanzP2RmYtaQyAQ6XzZ07Uy0rzY-D3yXCtk9pSW89hQcCCsEwjm-smhJIo=s500",
+"icon": "https://lh3.googleusercontent.com/VKfVh1REaevR1TCKAaKqEPJrBXRdUlbHkJqPjDnJJ9shKun_Wa9Lq35dHrUYrKgS1bT28OGWGji20nfuxaH_cffVO9ei8_tORqlg6NY=s70",
+"pos": 0
+},
+{
+"slug": "libris",
+"name": "Libris Literatuur Prijs",
+"sub": "Deze prijs wordt ieder jaar toegekend aan de auteur van de beste oorspronkelijk Nederlandstalige roman van het afgelopen jaar. De winnaar  ontvangt 50.000 euro en een bronzen legpenning.",
+"cover": "https://lh3.googleusercontent.com/nwGKhgGb_Qmk2UDeMuNzBnH3mA8tecvoPiM3YkSYi4DrZpXBxxXbekF8bGF7hFi4-2Zr0Hsc2NGR96Ojt2dQAJxz6046EaBL9fBhc3s=s500",
+"icon": "https://lh3.googleusercontent.com/RTtfEq_zjsvCuTPxjnJ3CCP0TKDNaCclU9CW_44J4DhzSM3LcgaS6MmAN3naFbKd909jljg9tTCM8TyWimNm9ZHO9r8uA5LpQLwbAA=s70",
+"pos": 51
+},
+{
+"slug": "futurenl",
+"name": "Stichting FutureNL",
+"sub": "Wij brengen digitale vaardigheden écht in de klas",
+"cover": "https://lh3.googleusercontent.com/pYrqkyiVXe6rXmYUGEDHk4mLgiQS0kn82stkJAr6ygdvnCXwxAMmnV4cPxwHx5Ha38yAnoyIR5gPDa6iXkXTHlQ_=s500",
+"icon": "https://lh3.googleusercontent.com/GRBPV6uTMRJoVtBNCrLF8Wsv7PVAlJv0fC45XACxxPHgCppFqko815RCuQ68QUnP2IKjg1KJ2UmY_z8Mua9Kojf0ONM=s70",
+"pos": 0
+},
+{
+"slug": "wijzer-in-geldzaken",
+"name": "Wijzer in geldzaken",
+"sub": "Leren omgaan met geld",
+"cover": "https://lh3.googleusercontent.com/uCym8UqqlCg6JvFbNeCe0lMqs2b54sgf1ym8rysbwVrYgKPkDoW-Pv9DGmGgq1SjwAakuo86SeftzfX0Cr09T-tqjOis1Q=s500",
+"icon": "https://lh3.googleusercontent.com/tGHWlOdhf1Gzx67kqTrZJJmYlt54Gk-4BpZ9vpzRLdnF3Y6O9GqJSB0FpoAhsXOcCBPAZeOJGFT-a3p3BZ0KvSw0H_w9gQ=s70",
+"pos": 50
+},
+{
+"slug": "grachtenmuseum",
+"name": "Grachtenmuseum",
+"sub": "Leer het heden en verleden van Amsterdam en de grachten kennen.",
+"cover": "https://lh3.googleusercontent.com/v8WYnjlB0kTtA7wek1bhwamlecRGicCdjI3TcTDk0paUgfnVcJwEUQjwh8BsSX-j7QCIQyCab2eH07egYHlTYkQF5wecS7t5AfaaPqk=s500",
+"icon": "https://lh3.googleusercontent.com/QV5-Cmapb2QULI8duYHy2p2Jggk-oN8_sQALpxOuXph2z6eluyigE5fM5mxpIMaIN6krk69xHB4cE8e5aVdVv02bdi5uB-5QjL5h-Q=s70",
+"pos": 50
+},
+{
+"slug": "van-gogh-museum",
+"name": "Van Gogh Museum",
+"sub": "Haal Van Gogh in de klas",
+"cover": "https://lh3.googleusercontent.com/ZxSfnYlXHmjGEoTuhD1SWsf6ygEcxL6dzG9PlD-ODN_C8VPWGOzNZCP5uGeXQuMCczv7iNCe83OeQIR9H1kXEa3LWLxP=s500",
+"icon": "https://lh3.googleusercontent.com/AWNVNzvkg50Q-7WcBnSHfJsaJD-WrbIG7GurJfEuak7-pDLisoi0wumY2yYM85IJdHemo-8AfEsc93qnkBnT_n0zTrY=s70",
+"pos": 25
+},
+{
+"slug": "uitjebubbel",
+"name": "Uit je bubbel",
+"sub": "Een lespakket voor burgerschap (leerjaar 3 t/m 5) in het voortgezet onderwijs",
+"cover": "https://lh3.googleusercontent.com/LnJ5QV-TDgSSRTIKtgPYhr9mhIfq5_JWYDczZIDaPpV6x-4wVYgZAupdckT5Bm27YNFFoUgvUVtU-bvedGQ5oELuXXW4OE3jGrhw4yGe=s500",
+"icon": "https://lh3.googleusercontent.com/SkbcSg5hFjNkooWHaWK_Yd0RfIA839qbUI_ahHUIdXVNSxht1B0uaxOmglZmjL2roSxpRhK1SHxNuBbAtbTCsvMs13Y6RfwsCJSH95s=s70",
+"pos": 50
+},
+{
+"slug": "plasticsoupfoundation",
+"name": "Plastic Soup Foundation",
+"sub": "Lesmateriaal voor PO en VO",
+"cover": "https://lh3.googleusercontent.com/7r-9iKrSYM1gbhisd0sgvpIdXsse2p_a7OD9IhXXhTCMoP0zc2iHcEHXTTvSuEWCBFvrZkkhwVJbxNqZNd8I9yuYmg=s500",
+"icon": "https://lh3.googleusercontent.com/7vsd-orQpDJKcBN_v2EEmLtJslgVYkVD7LVGnxpo1sDxKwqjKA5llwzWgAHlzmPTUPZcZqpsGmWCfUSVIueEZYRZMeNkqT4AmzZ1DV0c=s70",
+"pos": 30
+},
+{
+"slug": "beeldengeluid",
+"name": "Beeld & Geluid Onderwijs",
+"sub": "Een enorme collectie aan mediafragmenten, gratis voor gebruik in het onderwijs",
+"cover": "https://lh3.googleusercontent.com/xjAvlsWe2G-hosnC_Gs_ZtmizQSgl-ksYedFHS8Yjj8vp7P6wzwFEHQMmCAv1KMftAkvkbhI4G30nyHXpdJkRoTl-vQWQIljOhDOc60=s500",
+"icon": "https://lh3.googleusercontent.com/XgemvDYgt3WSTyMdl1bLu5g1H051waoA0-CfsQysaqbIFKWd1eEdIM2rjT_4TEH8Qjouh0xw1KTMiCgokE8tCnMWO9SU5ZrStNdyrFY=s70",
+"pos": 0
+},
+{
+"slug": "pionier",
+"name": "PIONIER!",
+"sub": "Kunst op school",
+"cover": "https://lh3.googleusercontent.com/xYIn8kY7SXCX4DK6wT-Si79JY_PvLsiixHiCJSth7QNYK1KTS16hsvEYVZa5yQIXWV0kiM-wqitqqtZYmbvib-4CJt9WW4fpBsa0kbU=s500",
+"icon": "https://lh3.googleusercontent.com/eAr8XmSfpRBsnqkVaagje1qHUEFkB35EZrpJs0idQr59rszd6VaPhlQk48NOKOGIRA7Pk7LqRu5y72HnpV3P44VeGw3NfNRPq2hCDq0=s70",
+"pos": 50
+},
+{
+"slug": "veilig in het verkeer",
+"name": "Veilig in het verkeer",
+"sub": "Verkeerslessen voor groep 1 t/m 8",
+"cover": "https://lh3.googleusercontent.com/JbOFR7JfdFTqv0z1ZyRFjD9VFj3N3--P8u8y7KYAI0dMQtgD72yoFfb9rCMPdRMcD_tJdy99YaUaaKpfoyWxlEudgwUnHzZUJF-ZQo4T=s500",
+"icon": "https://lh3.googleusercontent.com/m0l8oYoWiafzvsor9tl9Dr6V948Rji-Q8k1U1oWplUyKPsxH4-69eKKRrr_S9-7Hw3IAF8kiUQOBeYaF08k41yp6kRuHiBFQfjCWhg=s70",
+"pos": 50
+},
+{
+"slug": "annefrank",
+"name": "Anne Frank Stichting",
+"sub": "Lessen over holocaust, discriminatie en vooroordelen in heden en verleden.",
+"cover": "https://lh3.googleusercontent.com/gw5xzfOv7gCztUZ6vcojr_kyOUhw9Kl8mq7r4qWukiIzMupKyKeUaNtwBtUWRvTxB3wv6if2h7FLH0ZQOsfQNxn8GFyQYz0u6HJwE3Pv=s500",
+"icon": "https://lh3.googleusercontent.com/kZLVcd7VWBCUXP08pinQs1Sa1BQySxliCTupPPhXwPjbisPXG88Zw6WO2wwD5fAiioSgBI5BSLVoOz0KCf_6xahjoCcRy4WPcezslcY=s70",
+"pos": 50
+},
+{
+"slug": "cleanwise",
+"name": "Cleanwise - lessen over afval",
+"sub": "Lespakket over afval scheiden voor onder-, midden- en bovenbouw. Aangeboden door Circulus.",
+"cover": "https://lh3.googleusercontent.com/0lgMMdHXKQ8UCc1fLuC0q2cxoYdrfxeFlt-Qhj3Te7d-KBlnDSK5GIBf5MTK_fIIH-So0xWOSQtPjFOqsLE_4p5A0A=s500",
+"icon": "https://lh3.googleusercontent.com/4SIHB0Xq56tXhUAakRxmwKS0dC5xLfCkS7lvP18fg39xeFqE8NkFN381CuxTA5ascGCJYMQw3646mLqixCZ1MQavWFsOPh-76xoRxA=s70",
+"pos": 50
+},
+{
+"slug": "alzheimernederland",
+"name": "Samen dementievriendelijk",
+"sub": "Op naar een dementievriendelijke samenleving",
+"cover": "https://lh3.googleusercontent.com/A-aWcQo4I_PDQAulxV9QcvHQBzZN6eNQ3Eska-hCdGZNS0aQ3zB3Ute2-5cspNkODZOBZGqeFhzSTJ6FcfE2zHrgAiaNOgEJwq6PxQ4=s500",
+"icon": "https://lh3.googleusercontent.com/ILNQiRPwdCwqvySv8LLpwXwWnUWD3wDOGVYAQ2XapgLtn2PF76KNkQgrWOGYV1VC7FS5Zhzf4xO7VEuqiaTqWykqTeZerjK8DW97aw=s70",
+"pos": 30
+},
+{
+"slug": "provsoworks",
+"name": "WerkVerkenner voor PRO en VSO",
+"sub": "De leukste manier om je leerlingen voor te bereiden op hun stage of eerste baan",
+"cover": "https://lh3.googleusercontent.com/1GMDGSQWDshfOF6yK_F5cHxveYaragvlwJbHKBRFsB5T3jb3stcmae-j02ToJUBkkC0-OlXPmPCm7tIa_yIwObJmu47r5ZujVmCvTA=s500",
+"icon": "https://lh3.googleusercontent.com/HMK3F_L3dDza0wrCfmItjoLocqIYGRVxXE9KcmTOw9N0w02nx_5lclGdYlt-odaFJb5Nx0pitNGGokhsp34EjVrj3YOxVLk3XfVR8rA=s70",
+"pos": 42
+},
+{
+"slug": "respect-education",
+"name": "Respect Leskanaal",
+"sub": "by Respect Foundation - Week van Respect",
+"cover": "https://lh3.googleusercontent.com/b5Z2w0YTXJf2A0bUeNgCz7gFeoVFi7m75p-QwPwlWIb2AlNT_-5tiAMSvG8Hk6iijS02_7Dj-N1rolnsBAdAsdhOB68vHbwFY9CW6Q=s500",
+"icon": "https://lh3.googleusercontent.com/kBp2DvUFRSnfsZuw5rp2HYMNNx5s-zr86pHcDtxEF5ZQgieq5Pu7Ttr680piy15ZWBr1t2LTfpc7NJhAhWHUg0Jk=s70",
+"pos": 46
+},
+{
+"slug": "kidsweek",
+"name": "Kidsweek in de Klas",
+"sub": "Welkom bij het lesmateriaal van Kidsweek",
+"cover": "https://lh3.googleusercontent.com/xix1OgB5gJ1P0_cKsO_dNRuOM0hc8ri04fM09ICbBPxHZ0vge_PUErwOVQX_bgzePUEhjVq1uG8DJfE16F8hlinshVFxWucbxpsICpg=s500",
+"icon": "https://lh3.googleusercontent.com/zNH_gy6LDKJ3tD6trn6gIse97OhCt9dFgM_QVcX9ajSenwGPT9G2y0b4gV8vR8kWtYqIt3GBSt8fOU9dd3DlMlRs_ddLY0pitTBQEeCS=s70",
+"pos": 10
+},
+{
+"slug": "NaturalHero",
+"name": "Wees een held. Wees jezelf.",
+"sub": "Paarse Vrijdag 2025",
+"cover": "https://lh3.googleusercontent.com/6sctXiyrlqgs2Mb2NfH6vhoiW0WkdujB9ZNfM_9KByojF6Yyv9eMSxr-RMEZqa7VJzNqZ-y3SQC2HZWVL0BaN_skRGIF8f16vavQsw=s500",
+"icon": "https://lh3.googleusercontent.com/iuOidrV64Xx8286kjSJl2xGewzImWOF0CCEiMO38u5L1boaF8anCqeZK_ooQA3o4jTqrE50avcXTJVgCSWarRHOO1FH_smFPpeIC4Ko=s70",
+"pos": 45
+},
+{
+"slug": "remindlearning",
+"name": "Remind Learning",
+"sub": "Slim jezelf zijn",
+"cover": "https://lh3.googleusercontent.com/ltg-1GxW669mHXp7X9otoqr4Dz4R5U1I8YEw6BAglDH2dkn2mf4HoYoYMZchBMC-HpyCIKtbOWt3MHQsSccLd6j80vFFfRjsi8e7lxY=s500",
+"icon": "https://lh3.googleusercontent.com/EE-uYZpUdXJ3Yek4x7G4SmZEgwNo9YvJF2QyfesxYFyHykAKbueMKFnpqzaNvrsDtRKqVd8IlrbjsVQHhl29TWYl155Yb-ndX0G5mc7a=s70",
+"pos": 100
+},
+{
+"slug": "vogelbescherming",
+"name": "Vogelbescherming Nederland",
+"sub": "Samen voor vogels en natuur",
+"cover": "https://lh3.googleusercontent.com/zq1HhRtnn3qKe71S7OWRd9VFuRzIF-dqB1hA26wKs74GYjrivYkQamArbcfbYVnGCAYt8dWnLWrgnCiaWYnPpEwyMg=s500",
+"icon": "https://lh3.googleusercontent.com/aa5ZX2uHv5-z497Xd9pAwsZafEwObJt9DsJ5qoP5oz3WLHg5WlXevh2JUMRhqV28G6RL7xtdifeItrd2eLH2qvfWCw=s70",
+"pos": 10
+},
+{
+"slug": "kikid",
+"name": "Kikid Sterrenstof",
+"sub": "Lessen voor het leven",
+"cover": "https://lh3.googleusercontent.com/-EW5BPBLy1iMtoL_KPqpaJH3cJVaZ2I9_mkmym-tXk11-3I4_CCvxbwb9X5mI-GCKdNL5m5c47h3idPkcAJobfAlJkvsTsBCoiiIyA=s500",
+"icon": "https://lh3.googleusercontent.com/GYzhIh8Ilr0z_46U_dmbj9UUCb9hfK93a0xa5ddVLFvP0EiBdIgg6kVOPktslUIiy4vKtR-l_MzdZgI4Z1M66Fu1K-8oJnU2Z2O1KeA=s70",
+"pos": 10
+},
+{
+"slug": "iclon",
+"name": "ICLON",
+"sub": "NPO-lesaanbod Studievaardigheden, versterking aansluiting vwo-wo",
+"cover": "https://lh3.googleusercontent.com/VlPvOT966F9PnZD2rUQPYtoxN0oRZgtFms3SWrBCXPlPe9OdaIS_AHj_wwPP4C1cb5UXBr-8koIoEqMQZ1xp5daO-hdndpguibSdJw=s500",
+"icon": "https://lh3.googleusercontent.com/iKy2LiGVPAfm2_S9dklxuYIqGGwNV9NOgeDZ0pU429hqVQpGMwjhC2duTxl5g6dDI6EivczNrKucmYC1pvnX06AbVRcavGbuXZUb5A=s70",
+"pos": 50
+},
+{
+"slug": "brandweer",
+"name": "Brandweer op School",
+"sub": "Officiële leerlijn PO brandweer Nederland",
+"cover": "https://lh3.googleusercontent.com/kaPAV4r6HTFowXyXMD7UfHE1JN2p0r8j5tnJwzPvNSCzcQXSAUuNZvxMHno8kThMkB5ndBY_2VJeGh9HhTD6DRpTW9BJtGiNGr9JFg=s500",
+"icon": "https://lh3.googleusercontent.com/9x7egH-XEL8RnodaXCYTDapMqxbcaUnSFaNIifzFEYfV8RdzPpAPnnAayu1b2xCXPt-uSyin__BwGsSp-tQRiWZUdiyWpyoM1kq4dTgI=s70",
+"pos": 42
+},
+{
+"slug": "seneca",
+"name": "Seneca Burgerschap",
+"sub": "Leermiddelen voor maatschappijkunde, maatschappijleer, maatschappijwetenschappen en burgerschap",
+"cover": "https://lh3.googleusercontent.com/FohyFG9pEhsv_fOSRiAmtbTS27Isw7UQaOB-2I7sVnFIsU1VhslM3LIMH-xLCUvBoT1xIIndth5QZ_ZPn_ba0KFCJg=s500",
+"icon": "https://lh3.googleusercontent.com/jNoVmmnTExYLjPVALC_hEScIDCNqZqlxCqVoP5Y-t1FhGJuNL-Q268SpTFkevN4USIai0MjIro7FdBlzC01hUG3u=s70",
+"pos": 20
+},
+{
+"slug": "deinternethelden",
+"name": "De InternetHelden",
+"sub": "Lespakket over online veiligheid en digitaal burgerschap (mediawijsheid)",
+"cover": "https://lh3.googleusercontent.com/1gHdpIna-E9j5x8tUUUPIDZc2QI5GJn7Jjlh-xEOiZYrXYo9cTRoOFDj18HEZYm8O4tC9Sbnz-iHhIB2Ea5iI9LqoLl1r3KO0rkiSvkI=s500",
+"icon": "https://lh3.googleusercontent.com/C-0YLJ6vQW8Bs8VvbdC9N22q84FwYp6i8UNRFId-5LuLva1M3OxPIaPblcw491_P1Gqq3nU8OHG-xN2bo3h0lzj_QqI=s70",
+"pos": 80
+},
+{
+"slug": "numo",
+"name": "Numo",
+"sub": "Hét online leermiddel voor rekenen en talen",
+"cover": "https://lh3.googleusercontent.com/whWJFlmv0_zCJs7p7j1b9DO-OLABW_lPK6WjOcAOKUl4sIvimDorhrtfJE5dN03f9xlrPglBOtuqE26U9svJiDj7=s500",
+"icon": "https://lh3.googleusercontent.com/ZrdNYTq-ZNzveepvSt2feKMBwFtYNq8zRK21mJU7xYvgq72PecFwHTjLH_JwUIcbvRNJrpGEspSVGvz2VBvTxML0Mcg=s70",
+"pos": 45
+},
+{
+"slug": "amersfoortse-musea",
+"name": "Ontdek kunst en erfgoed in Amersfoort",
+"sub": "Mondriaanhuis, Museum Amersfoort, Kunsthal KAdE en de Elleboogkerk",
+"cover": "https://lh3.googleusercontent.com/Z2sNPTQqRK8Kqirnj1CJgr0fQQ17Yy4yyplRtU2uhWETqD9q1A0t9l9T_HiewIt0Jmr7fL6q4bOYEpSp4Sn_nlzoEw=s500",
+"icon": "https://lh3.googleusercontent.com/EjJIALDfBpVftEyvqMynxjaIKBAGpkXNZImOC1TKnrE8lURjPMkZwq61GFV7K_VX_HNRvSsANosm8IG-11lg3md2=s70",
+"pos": 15
+},
+{
+"slug": "dierenbescherming",
+"name": "Dierenbescherming",
+"sub": "Voor een diervriendelijk Nederland",
+"cover": "https://lh3.googleusercontent.com/mFNYP83qr_NF3CbnQywChy5BgjNxhlzqcFQW-_Fu2sDrZgB8BoNjHeHjL6kgvmXpjudEjTna7RDFM9WLE1tbxoyTVNX5Wy6wG7pdqhJv=s500",
+"icon": "https://lh3.googleusercontent.com/z5eb_4bDoXM674qcQtSCjoFJurQc7GDNPs6L6Uo1_UmJEwfDVn-CXo6K3rCRVLw5zoZMMgpDeph2rN-92pHbUyaJlPNiq8gWCcD1CPw=s70",
+"pos": 30
+},
+{
+"slug": "nieuws-in-een-kwartier",
+"name": "Nieuws in een kwartier",
+"sub": "Van krantenkop naar begrip: sneller snappen wat er speelt",
+"cover": "https://lh3.googleusercontent.com/6OwUNVgBjSlZkyeWcFlcNONaoPlQ1-xP8btbxAO2-6fLoBbQEoJP7_x5sJUmBySymKwhyJfritI0TDED5UutdFx_8zctoBt7bi_lIBE=s500",
+"icon": "https://lh3.googleusercontent.com/zqsPuzVWEFpIEZkMe33qlmsgyNlWGSogdjp078EgkgmtzP_BT3f0nPQ39bTpEpNirZOcWDN8YXOVH0uVhOSUKA3rWk3b7VYxCrtLUcuB=s70",
+"pos": 50
+},
+{
+"slug": "quiz",
+"name": "Quiz!",
+"sub": "De plek met alleen maar quizzen!",
+"cover": "https://lh3.googleusercontent.com/pECCableR1X2xWMhV8E4hoBI3FNCkssOq8JBHKIUjmvggy_nYhR9biALjUM--F0niO9MRL6MDUrbdobq_Qozj24LpN2eqwR7a39ku2o=s500",
+"icon": "https://lh3.googleusercontent.com/8rXvncEoMUGuOcxDciiOaHTWMb8_b8yH0XFvj--Jv9PCfImfAwow6Ok6ohGLcJ0G1_t6MR29eXs3DuyPU-GM-DVv2xniketj22-MN6k=s70",
+"pos": 50
+},
+{
+"slug": "nieuwsquiz",
+"name": "Nieuwsquiz",
+"sub": "Elke week een nieuwe quiz!",
+"cover": "https://lh3.googleusercontent.com/7VYwsRrnB0J_rdSmy4brxnlGrY3INAIsK99cWKtNJjZzv10MEI3cjD2vpOCRDwSbB7Pym9_bnnr6iruPsoyW0c7qhw=s500",
+"icon": "https://lh3.googleusercontent.com/yBmeHxUT1X5cuM5XyInlyJVWURSQGK6ykASyNiSuc8MQbLgUuk9Ar12ItP2cVaZUNx3ASA0dW9zSYQ2Z51NyKOPlkoDNWC-9veXUcHGk=s70",
+"pos": 50
+},
+{
+"slug": "stichtinglef",
+"name": "Stichting Leven en Financiën (LEF)",
+"sub": "Gratis gastlessen met als doel mbo-studenten financieel zelfredzaam te maken.",
+"cover": "https://lh3.googleusercontent.com/1ZrVwmVyvFM7BTvpPLCqH8VPL9a3mmDRsElUOgws-LKyki7kxPhThgODBesbv01P1lOJ6K0hrPpIsdaN34_fWAOx1QcVnwTPApb0jQ=s500",
+"icon": "https://lh3.googleusercontent.com/AAQJSSGaW0kVHuVq0yppH_4Bb1mWaGNiFAcCm8B_plSd7dyemBLAWUhZm40_g_Et1XaJ2y9CVau76k3QwlVsbaRDqz48R573CHuY0g=s70",
+"pos": 39
+},
+{
+"slug": "foameducatie",
+"name": "Foam Fotografiemuseum Amsterdam",
+"sub": "all about photography",
+"cover": "https://lh3.googleusercontent.com/FesEEEZQOW0V8dKTzaeXTwCucr9-YvATo6b017yO63w1vKUBkT9q6vKPGULeX0dOmZbkcPxyW3CIHaapTEGVQt9TkoB-VsUfbb4YSQ=s500",
+"icon": "https://lh3.googleusercontent.com/MN6FRqKO3ztIHH8kt4KfmskM1ufLwHX3F5VrqzchNKj9v_lHfAab0zFg2BCFj2qL2UBOdmjrZoNs_Yhm22-lQRZOTzYXUC_a5N4Xg9ZX=s70",
+"pos": 50
+},
+{
+"slug": "geschiedenisleraar",
+"name": "Geschiedenisleraar.nl",
+"sub": "Dé link tussen verleden en heden",
+"cover": "https://lh3.googleusercontent.com/_v4VbbqHhIuf4KCAZkYP9mBqmVDLF42TTm3ZpFWJiKwWuVE4c-bSr1zBHi7bXVgegihsEHzf7h5hmkqWxV6mypy1_qBaADMoswv0RA=s500",
+"icon": "https://lh3.googleusercontent.com/mpkt1Vax2c_y12D6G4SrU6Td2iUFtdPUhaPOgVIWuqNGGF3f0FvW_5p1d2xJyR0-jnPi_iaEmJSSyzZQv-HajFxufsNz58ADIwEc=s70",
+"pos": 30
+},
+{
+"slug": "rotterdamsphilharmonischorkest",
+"name": "Rotterdams Philharmonisch Orkest",
+"sub": "Symfonische muziek voor kinderen en jongeren",
+"cover": "https://lh3.googleusercontent.com/r0KNaMR5zgEhhU8ZlbFcYB0jkoEsPHmKTzJAAaTBWzOa0_EtVgiIRj1nHHuQKlbsRmCs1rbgk7I9DN8qy-h5gr8E0Q=s500",
+"icon": "https://lh3.googleusercontent.com/_0mrBMw7AWnUZPsho4N0dzgLR7jTmj49VvC8nB1DbxSyav47x6e3a-UPLzkmeOe8z0sImvOQmVNXVZh9icwlzlrI=s70",
+"pos": 76
+},
+{
+"slug": "sea-shepherd",
+"name": "SEA SHEPHERD",
+"sub": "FOR THE OCEAN",
+"cover": "https://lh3.googleusercontent.com/i_uwyWRB_73p3ltIlT45WrChg-x8c8Q-lHpTrxKqYg_MB7fQlVu7osIOJQK7T2ZEPNWNO2y6WoNNXhpY8pKDJenjvO3Gwod4nWC8rA=s500",
+"icon": "https://lh3.googleusercontent.com/Nw2pPWHlg9QLVYYLED89SZM_bZZUMDw_JcTXSwvz6hMMGRgHsyx45BzBvrv4Pf59o_4cURa-YZWbwuCB3dgV-3T5Lw=s70",
+"pos": 35
+},
+{
+"slug": "deprogrammeerschool",
+"name": "De Programmeerschool",
+"sub": "Experts in Digitale geletterdheid voor het basisonderwijs",
+"cover": "https://lh3.googleusercontent.com/8Pt0odrI5a9j2D0FUk3WVmSMwPrQ0EstROzMiTvOg--Z_HRcxGMEws-Ouhsunr67uv3VaE-G1X9dntmn0FQSXRtdGNihVnVehq_yxxM=s500",
+"icon": "https://lh3.googleusercontent.com/5it_xZ69JY2j0HrBbXNyWsOX1UVaOXunU79xSCPwYGAxuRjOokF7tix4Gs6vflhAzjP8Zx93oMcYH0EO-krMnDkqrz6w7BxpjugMwhQ=s70",
+"pos": 50
+},
+{
+"slug": "museum_het_rembrandthuis",
+"name": "Museum Rembrandthuis",
+"sub": "Ontmoet Rembrandt!",
+"cover": "https://lh3.googleusercontent.com/Cq0-Kvpj0JJRXlAwtxuEem7R1xVUIMJlEeCLhJ82Nu_MdJtLvbPS3r-scagCFVmOGyruhZsQxHKSK3X8K1V3olOZzQEj-FO6egctqw=s500",
+"icon": "https://lh3.googleusercontent.com/cQHTitR5SKIGaoVRQ15thaaplpBhZi0lNwwJ3T5kUqR6FPaH_UnWKCRjPhggbe0Y67XVvXKnMeL27U3rrqssxo3QNQWQuCMosudblQ=s70",
+"pos": 50
+},
+{
+"slug": "wereldmuseum",
+"name": "Wereldmuseum",
+"sub": "Lessen over kolonialisme, globalisatie en wereldburgerschap",
+"cover": "https://lh3.googleusercontent.com/Oxh0z0ycPOxiLewETXAm-t4xKTUuMZZc_nVQW4UWL3YWuu3qmuUsYMXPA44J1RpakyPnVsDuV9kElBR-PUpaQsxjH7u2zu8Kd59Zcu0=s500",
+"icon": "https://lh3.googleusercontent.com/uEX-Jgdl6tZfxUjapmhSyJJJB2FAC2pUr069SqK93hLS-7OiUN0smqrYSD_1emGV3MkTg9GdtgHvSwaPMJ6XTow3R15pilUNqnsYHRE=s70",
+"pos": 10
+},
+{
+"slug": "fonds_slachtofferhulp",
+"name": "Fonds Slachtofferhulp - WTFFF!?",
+"sub": "Lessen om online seksuele grensoverschrijding en misbruik te stoppen",
+"cover": "https://lh3.googleusercontent.com/Qig6bSM292L3_pwoOgP4oAoSHUqcQdovUgEYi2_8UBU77arlL41a-ISIrq2cyehTAqPlCetXVNtYHT6Gg5f7ff06yPfG-69qtS6jCRM=s500",
+"icon": "https://lh3.googleusercontent.com/-T2Hm-B-b9Skdy-E2MPpcIYBOFOV2IrvJuU55gJMUVKle8EJi4XHTgnQGhDSAE4yWQqDyWv9JH3ybXk01kEXs_PIPiU7xO-uqPrx1Ko=s70",
+"pos": 43
+},
+{
+"slug": "kcef",
+"name": "KCEF",
+"sub": "Kenniscentrum Executieve Functies",
+"cover": "https://lh3.googleusercontent.com/LEkWm8vljHtWOTrHX2RDvYpyfYxdKm5AiyrfhjvL1MziYvxghEZwSEEEZsA4DkMeeYANR5kJI7upWG11rzv9rm4Q7u4kBgQlnw9QO0Q=s500",
+"icon": "https://lh3.googleusercontent.com/kgHevwKfvoNAaHKG2ygQxomSjS-HYP1fojRBTZ8fUHjP2BnRrA0SFOKoJyb1ZhOcOHy2cFOfxxeeZwMSZ0TYXGpbL-AynGzIMHU8U4o=s70",
+"pos": 87
+},
+{
+"slug": "phion",
+"name": "Orkest Phion",
+"sub": "Het orkest van Gelderland & Overijssel bij jou in de klas",
+"cover": "https://lh3.googleusercontent.com/1_AiUwnCkT2F4ILMQrxrTTVHjztItCgE-aWbC81SfMO5vaWOB35bJxirA0_QcexT4aQ0JxcOJovIo0mE47xvWIl5tXQ=s500",
+"icon": "https://lh3.googleusercontent.com/J2619pMufEP9OV6sMoyOl5UqNbz_VsRz6OiTVl670P1ujYzg5vykywXMAsKgLo6_wum_FXbHemHbFTq4Sv030D2WXw9gD9bYEZ7WBVQ=s70",
+"pos": 50
+},
+{
+"slug": "defensiemusea",
+"name": "Stichting Koninklijke Defensiemusea",
+"sub": "Ontdek de drie defensiemusea: wat we doen, wie we zijn en waar je ons vindt.",
+"cover": "https://lh3.googleusercontent.com/ZDbaG9YB5oNd590iCqwyVABtLZrQA0mOl5GvOJJvowrfYmQc06ZPohwLjA30BNOy0Rbfw4J3g-jyL1-1meBoEJJc2-3bEfZDjjeM7GrS=s500",
+"icon": "https://lh3.googleusercontent.com/-4TiZ5j5rh2SmGbiXHlJ1Z5rr-UGKOP1q27dYsCroM79IYtDdK7ZlhtJWKppKqLU_69NJTnBUY3szzHx3i_NZMfiSTcCE9ZS5lUSyA=s70",
+"pos": 50
+},
+{
+"slug": "rodekruis",
+"name": "Het Nederlandse Rode Kruis",
+"sub": "Digibordlessen over de hulpverlening van het Rode Kruis. Doe mee!",
+"cover": "https://lh3.googleusercontent.com/TZLyM9239V5JTMK9fIImXxV5cUcaWT7_uEkvsPIUpODPujE0oq3V-reVQcNsVsQpQrKiE9Mth777J2RVkz5B03ziZN7NppRQezYaPQ=s500",
+"icon": "https://lh3.googleusercontent.com/aqpWA9XRf4BNTtxVoIvmoQPxSTeyWZ3W1WPIGucuHKi4PPFDgqKx2myiEg5nGnrSK59i9s7jNX7wrvmmHRyDg2Rc=s70",
+"pos": 55
+},
+{
+"slug": "nationaal-archief",
+"name": "Nationaal Archief",
+"sub": "Hét kanaal voor bronmateriaal",
+"cover": "https://lh3.googleusercontent.com/sNS5Wcx7Y1ZZFau7Ja1suYqioRqJI1keqrKqdfqwHuwn2MhjYkhYD3_nQ0RLEEe8u2-oBSF5wPSd51EmtsYMXLqKLsPvtPLTtRIs09_H=s500",
+"icon": "https://lh3.googleusercontent.com/1H4_57pA4K6ECF_4O9TrSL3gPd8sTgj8OXKDvh1ph6KDnO8tT0M0DUfVGYkCEIQcoW89wvTpmNI1cLOocrkW-ud2Ou3DAX_MBtEpLNDt=s70",
+"pos": 30
+},
+{
+"slug": "galloromeinsmuseum",
+"name": "Gallo-Romeins Museum",
+"sub": "Haal het verre verleden naar je klas!",
+"cover": "https://lh3.googleusercontent.com/Y091BfQ4F5OFP2AbzKRXFxvI90OVzxXfZyfFPhpHrd5j27O7RCKP2_bsT0vzYPsfrJqqTi6Cwukvhr0c3R6ujLeUbrgf3yq-zZEtFQzy=s500",
+"icon": "https://lh3.googleusercontent.com/odf73UyJy-zqxPinZKJLGj442SrQFCILzdRoMpdn6FYundLZ8F_2OXwGsgo8kwUn2tG6ze6l1x_7do0BosDrNGhzwyQZSvpX9y46FiY=s70",
+"pos": 20
+},
+{
+"slug": "museum-hoeksche-waard",
+"name": "In Museum Hoeksche Waard komen verleden, heden en toekomst samen.",
+"sub": "Educatie over vroeger en nu.",
+"cover": "https://lh3.googleusercontent.com/4KNeGeFiEnYRM__2I5z2tvDyURnt9OAJFyeUJPp2NLvYNlra4KbGfhUgEJI4lMCA2ludUqc8ahyBW2WAAborQrmh7uGXx0IEs-Ka0DM=s500",
+"icon": "https://lh3.googleusercontent.com/AR9OpHdxQMSn230rfYX_Oo81kyuCKKoWy97pu6UT3N1oyJmHH9jjaOCBsyfMqPFzBVRifoO9VNF4DClWcidMQ2PPTjNIIfnSAJuHGj0=s70",
+"pos": 50
+},
+{
+"slug": "veteraneninstituut",
+"name": "Veteraan in de Klas",
+"sub": "Ons verhaal is meer dan een missie!",
+"cover": "https://lh3.googleusercontent.com/Nvb3CLqPDKQv1eDbrnMowqxGCedq1theSCgamXtrb7YN3UAi_LyxG-toz-2uEXm4gyB_TyDqtKUChrX2zBwDbUpHcE00zvNhrTLsCe8-=s500",
+"icon": "https://lh3.googleusercontent.com/bPty1NKlOre0k26d6Cf2ItkbYkRViIeCUw64775TsGhveXPm9b12qxLOEmJSyxQI9mXMMd4l7trDsRhjtASmqjbhVl8xfCbslEYU_Q=s70",
+"pos": 30
+},
+{
+"slug": "rondombaaz",
+"name": "Rondom Baaz",
+"sub": "VOOR SCHOLEN – DOOR SCHOLEN",
+"cover": "https://lh3.googleusercontent.com/JtWwSrc0fwNljhEcYY_gjSBzxMP_4Rx9eGdFluSopFSsS_r4seJBh5HQ-n4a7ikUCGKq5N7M_XTvy71rn-LXyMcMEBQta3pdvZmRzw=s500",
+"icon": "https://lh3.googleusercontent.com/Vk4BStNRhfe29rofGgRR7dTJpVT-iyKRVdQzyW-SVXcbAW0GXWCIj_ARXluRcYD_fb876RyiFoRh7ptoDZniaEHPI2oP2npg9N2IYw=s70",
+"pos": 83
+},
+{
+"slug": "hetconcertgebouw",
+"name": "Het Koninklijk Concertgebouw",
+"sub": "Kom met je klas naar Het Concertgebouw!",
+"cover": "https://lh3.googleusercontent.com/H2Rf-ei-0kawLKN2KKi5tOZvgPZKp769V3aMGMmGV5uur8fuJZyassLoAA0HO9ArVahGeGk9q95hCqKv_ZirrtgydBCLwKJeINF6Zg0=s500",
+"icon": "https://lh3.googleusercontent.com/wQPoXF_jFQvIh2X6KDmYWY0YXyNkuFWqL61eqLyOjkAbMrmwukKttE1kEiaP_Nu15kEN3FU-VhK5WCoptGflXfZHIg_Zoi-rK13teUo=s70",
+"pos": 25
+},
+{
+"slug": "stadsarchiefrotterdam",
+"name": "Stadsarchief Rotterdam",
+"sub": "Het geheugen van de stad Rotterdam",
+"cover": "https://lh3.googleusercontent.com/Oh1bDP1TCzjB6zldBBkbelSTrGocxecoy1g5Ex0yp3bqil0lTPUyzL92hnAjw-p0lR3lq8pbbZAMjc90RG71Cvntpq15-esnAEXKDmxs=s500",
+"icon": "https://lh3.googleusercontent.com/yHQG8fQfoOq8YbxgaHnu0O2O135Kb1OtZbHH982yjxrHNxs_pvr_k5cr4aHiUomffBavr6Kdoc4Rnn_z9Vbq251b-jATpbYW0RDK1NY_=s70",
+"pos": 50
+},
+{
+"slug": "specialistischvakmanschap",
+"name": "Expertisepunt specialistisch vakmanschap",
+"sub": "Lessen over kleine, ambachtelijke en specialistische beroepen en opleidingen",
+"cover": "https://lh3.googleusercontent.com/1qKiMWB-9T-03pJgqopdxpMlxXVhzipuZHbiSayoNz9aPmUJQL_6CoN_u4UsQivXPpakjOGVt8mtQCd3nBtvlOUv-JEMKo0bdcIA-jXp=s500",
+"icon": "https://lh3.googleusercontent.com/l1qyiBOMtHNfLuWTj9qQLajmWcqfYVNKbskN6o7_zw4y-ByAnNEpfyw6iUJ38wMSzaQ7bErCazPNf9riKfF03lxHc2yk3z_O_xhypA=s70",
+"pos": 53
+},
+{
+"slug": "nationaleoperaenballet",
+"name": "Nationale Opera & Ballet",
+"sub": "Lesmateriaal over opera en ballet, of ter voorbereiding op het bezoeken van een voorstelling van Nationale Opera & Ballet",
+"cover": "https://lh3.googleusercontent.com/OPONo8qGeaF6CqIQmzquxP9-sYS86iSSY1HZyRsxyLqEA14s7IhrL1UNYqRQziilOXZYDDTrsJnQPJXtS9Z0Wei314jmbMcSSoUgAS0=s500",
+"icon": "https://lh3.googleusercontent.com/mBqWqEjYjzxKPXDbAPSQuv84Aejxvnsaq9zdwJPNoCCLEonis2w-hjJgDivCcqAmPm6j3jhr8K5D2ygVkA-QoEV7yEwAd_73YtY4vl4=s70",
+"pos": 50
+},
+{
+"slug": "kidd",
+"name": "Kunst is Dichterbij Dan je Denkt (KIDD)",
+"sub": "",
+"cover": "https://lh3.googleusercontent.com/9MbuDPKQIbT-zHozG_yB8w7pa_oGjTXh8alDz_15SZqoMXrOGer1ode3yJG1jhJw-yUGbc0zJsvu65hZhztRa19m-CWV-VmEGwkfs6Q=s500",
+"icon": "https://lh3.googleusercontent.com/vyE4etfIsec9S3WVA8m1q-xDe8NNAtDUkOih9QK1wzSlP0RvGHMT_NjVYzOcF14iHSpil05zFoAvumxxfACh0u7XFRpKFHHHd7abs30=s70",
+"pos": 20
+},
+{
+"slug": "nno",
+"name": "Noord Nederlands Orkest",
+"sub": "Toporkest met educatieve en talentontwikkelingsprogramma's",
+"cover": "https://lh3.googleusercontent.com/WY-s0Il4FJTVeq_Nzf-nqUhxXalbaCoS2yoTpgGAU6BpQ0_qNUu2iszNnw7oj1VdENBPYi1DXBlR01ifqesmOGMY9TPv4t_bxL7qLA=s500",
+"icon": "https://lh3.googleusercontent.com/1-XPUDFHQPvEpyWEZ2cs-yVlVF5SRMGRahf41Ixzsk6KKUcrn9IYsO9FrvlD9b6Sk8WHFX-VgOBAcCSdbHBO4zQodnL5jMTjznMXzQ=s70",
+"pos": 92
+},
+{
+"slug": "troef",
+"name": "Troef",
+"sub": "LOB Methode - Jij hebt de kaarten al in handen",
+"cover": "https://lh3.googleusercontent.com/95GEihtnYSY9UABqnfKNRP1y7-qgiOJUFlP7WPXvLj1f_TsrTF7vjTsHJpyWGuChXnPugXrCEfTsn3N9nVFT4afrGKC-wLYIspkydwI=s500",
+"icon": "https://lh3.googleusercontent.com/VlW-8G7zDN74QxZnqhEEK3jDhO4WQXFdmU88IKqdRnKk9GqdiVmyLULeaR_0H3pBV4CLLifrZApMyRF0zVmZgeUHKGhwCCz4srfD7w=s70",
+"pos": 80
+},
+{
+"slug": "relief",
+"name": "Reliëf - Kunstgeschiedenis",
+"sub": "Voel de lagen en kracht van kunst",
+"cover": "https://lh3.googleusercontent.com/XFSzOPo6Gu9wWl0R7uQn8Ugq-f_O1t-tQhLSV1crI6vfIqTopO0TfaKBweFH0iK8KsWPspZI2s44J9QFaChMHx6vhy1dME8-g9oCBg=s500",
+"icon": "https://lh3.googleusercontent.com/3VuMVtW1-ZO-q1ibAAshKndpncg4GaxMf7fAeL5fnvQdLZj_TdX2dU_pX0sH9Y39sXEPNNuLufb9gPbMulYQLuhhEtEP6e6iSQpwOWA=s70",
+"pos": 40
+},
+{
+"slug": "reisopera",
+"name": "Nederlandse Reisopera",
+"sub": "Opera doe je zo!",
+"cover": "https://lh3.googleusercontent.com/ma_YTCrcwgCxE26x1sNejvugeZfwR3uLlCWf_-RAmDeFQeLY2BGBDwBFlOGpdUR-G92vYEmEp6wHWJS-H2RFFAw4tOeWS69dZl5hzw=s500",
+"icon": "https://lh3.googleusercontent.com/GU7FYHZLBOqsJ1YweDAlacX6ZQsUnkvKBPUvMm3OJyR5e2UUVsK8YfcVjFsEnVxAixJHNIQZQPt1NnACGj0adXLeIhRm49vv6wdRdQ=s70",
+"pos": 50
+},
+{
+"slug": "filosofie-wat-is-echt",
+"name": "Filosofie - Wat is echt?",
+"sub": "Filosofie lessen voor po en vo",
+"cover": "https://lh3.googleusercontent.com/5jBC7wpJLPc2u7sSv8Irvvw_RS5gARXSnIWh1u6DzLA8E-CtKQqldaaPObcbEv1sSb8tJaPnpihkmh-DH5pnbtIv3AKw6CfKoRGtYi0=s500",
+"icon": "https://lh3.googleusercontent.com/9nRyfdSc9Jzbaz4_aS8RJQytQwXA195MkothFheCAapUgCumf-eyRIlEguauwwjLjR494G8eCCTIGi84ETme6V-dPMJUMKriJZy92RGq=s70",
+"pos": 50
+},
+{
+"slug": "jonginoorlog",
+"name": "Nationaal Comité 4 en 5 mei",
+"sub": "Lessen over de Tweede Wereldoorlog, (on)vrijheid en democratie",
+"cover": "https://lh3.googleusercontent.com/-9EAC1HVHh_0xOWHVAbLgWtd19TdbIHEnKu_Up2JrLWRv8Yug-0FohMMcOre-FVVoENz2Kk6aQNibWjoQzLaqGSvPYnAyX8utBTMNw=s500",
+"icon": "https://lh3.googleusercontent.com/gCzMClzz6XGBZzdRMpYEQrbDhCIROGcN0-0ODb1KfFn5V6rXqyOTaRJrpNEfUJ-p4QZUQuaqoK6O78ZpB7gjRCEsZFuMFZdNq_lYgOEe=s70",
+"pos": 0
+},
+{
+"slug": "actiefburgerschap",
+"name": "Actief!",
+"sub": "Uitdagend burgerschapsonderwijs",
+"cover": "https://lh3.googleusercontent.com/yqVp9-tKAB9Z54nfeaw1rHxQYChiIv5gJEofwn1yOyTZCn4YBj5D9fm6KVZefkO7h7OtvrHvK262PUqZNeDg8VK8PUua3XxafLsxXQo=s500",
+"icon": "https://lh3.googleusercontent.com/QJaLctlL64aAfx4R3EP71N7pPFR8PU0km5UHHiqtxzx6-aPzK6IyzNBnv2iYlIEp4i6laQaEipkvLcJyTDYnVm4JksRBwBNNnbQHqpk=s70",
+"pos": 50
+},
+{
+"slug": "hetscheepvaartmuseum",
+"name": "Het Scheepvaartmuseum",
+"sub": "",
+"cover": "https://lh3.googleusercontent.com/wQT1YeToQRjOIaFpcFwu5xJ1212ekttaipTCaXXdwniGxNF40XDUhTDNUJ5c_0e8ugff8yaK4KFmcjSyMUPvTrTo=s500",
+"icon": "https://lh3.googleusercontent.com/T1nsTCdSrHi03T2ILi3C360uXm41T2zECLFvPP7xwZzhr1qne1ordEOPiFOiaReMCSGhtbyZr45-6b7T1zUWyLaM=s70",
+"pos": 30
+},
+{
+"slug": "mentor",
+"name": "Mentor",
+"sub": "Interactieve mentorlessen voor VO en MBO",
+"cover": "https://lh3.googleusercontent.com/Eoa_fFpPWMqkquV5ajqD52IgbBNKODb14n6dDm30ryqfuk9hcguUfV5x5nQOBjokVoXBmGyHgOlMtfbMNgX_VX69G-ZigSdK4zKRXEjf=s500",
+"icon": "https://lh3.googleusercontent.com/UKclyYG565AAYo9vO4OoGB2TdPR83eaTX2wOQcCys_f3zCqk-2STY-OvM1d9tiuBKDxRp9mIqGIihsNKJe9ETCK_jCP13QkAFo7uQg=s70",
+"pos": 98
+},
+{
+"slug": "grunbergacademy",
+"name": "Grunberg Academy",
+"sub": "Educational tool to enhance communication skills and self-esteem",
+"cover": "https://lh3.googleusercontent.com/KhIPexZvmKDXLTbz_qOS7lfr10T2SU9mZ11SS793FWN8-rPrZvvYfWtLcWBnbEHDWKj3W7mlyFhReIykYN_3Cp3C1yYk-pTIeYFeVrE=s500",
+"icon": "https://lh3.googleusercontent.com/dm4qEPxLBTBejnbQWKa7wCFCQJTe4XZAx8VTc4z9MPaAq-X1FspyP6fOXP5wxkR44c40YrYBFopG04szoRjEoL3VckQPcbym18fCLOg=s70",
+"pos": 55
+},
+{
+"slug": "basisvaardigheden",
+"name": "Basisvaardigheden",
+"sub": "Bouwen aan je basis",
+"cover": "https://lh3.googleusercontent.com/PrcNqLM_P-25dv11SpHA5ehNVy3jw5EAa5IOAGXp31hmiwf7oAp0qNGKtlPoAnM-CLqsJBHfZNzGL7-W4vcYNPSh9aWVqqksDhi1g8k=s500",
+"icon": "https://lh3.googleusercontent.com/f3bYkLrLizznr90Uw1IG8w19npUV3hNbF-3C6qkxB8Yd_v_Z0JcTkGNwwp5BTlsT08cGSkWjw704ZIK299UYzrJFdVayAltKt4pzpYgS=s70",
+"pos": 50
+},
+{
+"slug": "pieceofcake",
+"name": "Piece of cake",
+"sub": "Lesprogramma voor leerlingen met een beperking",
+"cover": "https://lh3.googleusercontent.com/ezVei7_8PzTzlQ6dDbcaGlcK0TyzMPIBIDUxYrtYSoOV2JwYIXUvtiwEN64Ex_NHRZtZ2hF7t1MB0PL7HSOQyPeHU7DbDuunEreSlPU=s500",
+"icon": "https://lh3.googleusercontent.com/DejYRfM63pCjw4mi8leiVpjgUgbfVstVUcjtrBEGN5WzDcMB0E5onT4Fh57XRvczMcnjbxxS8hD9vu6-MQV6OosGMy1ts1s-VJxrcKg=s70",
+"pos": 50
+},
+{
+"slug": "wijzerindeklas",
+"name": "Wijzer in de klas",
+"sub": "Maak een vliegende start in de brugklas!",
+"cover": "https://lh3.googleusercontent.com/yye632GmgwklpTMO-o_JSAI5kbj4XYjzhYox9Dglfwg_TWqPZSxT18WA6BkR_vU4b8OmY4fB-uO4uUtmVFo0AvkjRjTvySYwa8OQ_0S-=s500",
+"icon": "https://lh3.googleusercontent.com/5k52Wi_1XoQRQBIYpNb0VPtAFiso0O4_fb4MVEDSRgWbXw6G367nHqrxCZt6NA94kmVMl5c8AoELTr_7UIKyRJzupqAVcyFYhiMaURuR=s70",
+"pos": 50
+},
+{
+"slug": "kampwesterbork",
+"name": "Herinneringscentrum Kamp Westerbork",
+"sub": "",
+"cover": "https://lh3.googleusercontent.com/GPVkJTmdf-GKiV1eBoQv1CgJquH-tWuXIrUJCkhz6paHhkkfkPvjHSvGzfmpiF2gdXrwCmKJSH_dcM5XCJy6FcyjEguhap1wSk35q-s=s500",
+"icon": "https://lh3.googleusercontent.com/nksyOWA-MJbt5OoMsQ7xoaKiqfR0jGtvEpCu5OcPhpCRDmPM6hdTV5CFg9EB14NRkMZDa5J0MITdIjHbmgaKKeKrLDb-bQ8M9_WYsQ=s70",
+"pos": 85
+},
+{
+"slug": "voor-de-bel-gaat",
+"name": "Voor de bel gaat",
+"sub": "Haal de regie terug in de klas, nog voor je les begint",
+"cover": "https://lh3.googleusercontent.com/PuG-pY-MQFgX8cZMOAJApY17aB8QCqwEr6o9Fi4bL56NODmL4wpMsUc9k7WFVxP3n4qimEJjGNW-V8GCVgVWKiFs8w0EW7WG50-4ZrI=s500",
+"icon": "https://lh3.googleusercontent.com/6_lqV_ar5tIaJtKURUT6ITR97DOzUZ9zPKs2av60DeZY8Z7DenlIdb-j5mz6rwOJkr-2DP0F6wNA4Vyb78J9ztg02u6E1YZRvvLWnnA=s70",
+"pos": 50
+},
+{
+"slug": "vrt",
+"name": "EDUbox van VRT",
+"sub": "interactieve lessen die jongeren inwijden in tal van maatschappelijke thema's",
+"cover": "https://lh3.googleusercontent.com/UANzISjXd6mQjShagdLhiTFOwPSHUNtufquglFLMecqDRG48apHtTFIycprYyTwQlg98QJIJ6UbbDvuNRKiADrKS1od5ew377nlifG4=s500",
+"icon": "https://lh3.googleusercontent.com/yr6kRvxpbLELjnNYBEhjrCpMpvYIS1NfEDbk6OWTnmNOrUbrqiMeSyeNTKQpJ8z6VhDA0AZbTmnhjxgTXmadCrNWf1I70pMBKnmV6SQ=s70",
+"pos": 50
+},
+{
+"slug": "nederlands-openluchtmuseum",
+"name": "Nederlands Openluchtmuseum",
+"sub": "Een leuk én leerzaam dagje uit!",
+"cover": "https://lh3.googleusercontent.com/LUZuG0rE9C3YeqZZVI1J0dYVNEXe-pIZSQ8N9gr02q53pof0WllaNublcSRI5U3zK0WAj7kRFGWyklX9TqglI-J25RuLKymtVUklfg=s500",
+"icon": "https://lh3.googleusercontent.com/REA8o6ODJz6pbjbnvw34yZNLW1U9HVX7phzK54tFSNS-hosBxA98GTCA-ak4xal4RBWCxDbmrEZmekfi6ahZOgn4_EFa-u0rZHsnrOY=s70",
+"pos": 40
+},
+{
+"slug": "lessonup-examentraining",
+"name": "LessonUp Examentraining",
+"sub": "Oefenexamens voor jouw leerlingen!",
+"cover": "https://lh3.googleusercontent.com/peDdohM1DlJ9ixnkFUbeViS_5MyhsSBJmHQpnghiBdZsMmepxZIs1YKDRKXd088fot7Gdm3lwDCfX10Ei7bcJkRwVu5qwih-prdYung=s500",
+"icon": "https://lh3.googleusercontent.com/xocn_eX9-y5A_8fE1CgbBv7ISBJhn_K0h5zJswFL4lYBl-wCCbnI2oY0UbBMwb8lyRwcOzCqNGpSym0tjZnowJJgRoi_ld08Uxbf3ydK=s70",
+"pos": 50
+},
+{
+"slug": "cultuureducatieenschede",
+"name": "Cultuureducatie Enschede",
+"sub": "(Ondersteunend) lesmateriaal bij culturele educatieve Enschedese activiteiten.",
+"cover": "https://lh3.googleusercontent.com/l9_i9ivkfwikMJ2nINFFGjKTMOkVh6pgl6G6jjmM3keMwUDjgQWqf4rXNlp6MIYFGn_UjOS9RIgVpWe4ezFUZEMKTOM8WtRsxHsJIl8=s500",
+"icon": "https://lh3.googleusercontent.com/zhhgz8Q0bZKUC0vmlK__OFA3-_FbFOoFUxIBUqHwJMeqCerkLiCnF6gt7sWJE3sc1Wk4gi5KZZU1xuL1WYHxLpgcZpVxxBnJVIzfb4g=s70",
+"pos": 60
+},
+{
+"slug": "vrijetijd",
+"name": "Vrije tijd",
+"sub": "Van dierentuin tot luchtvaartmuseum",
+"cover": "https://lh3.googleusercontent.com/NoAd2wQK95zv1Y84GCDbhbYWCn5onwYzytn0ZHxo7M5wdSLRF2AekWcHcaq0DRXAb2YFG5ZoPS9fwz3EJoX9bCd87ar7=s500",
+"icon": "https://lh3.googleusercontent.com/kCebPfifVnVLnYOmOPRynE_rkxzX-RCvaZj3RI-qtPZnoNHGp4gvLSYN93qlXyDbAlpCo0G_boLVB1zgaG2N2oYYL-M=s70",
+"pos": 50
+},
+{
+"slug": "examenboost",
+"name": "Examen Boost",
+"sub": "Slim voorbereiden op je examen",
+"cover": "https://lh3.googleusercontent.com/UjGP0S71t3pVNGDJP-SrnUScT4XkCEry1IDr15134aZVH0lUA7Obfl6tdkWNLbyPEEqqv9yJSXFW-xP-0tADyDGr1dFNpYEksA3mog=s500",
+"icon": "https://lh3.googleusercontent.com/byrBlQmoOtvphXF8O6IJ_HYwkV4cns-yVMf3irim41WEoCCrDB3g9FjtCk10Y1MIACIkFuO4pjswiAs_nNSydFce49pKasrsLSaTiQ=s70",
+"pos": 50
+},
+{
+"slug": "stapvoorstap",
+"name": "Stap-voor-Stap instructies",
+"sub": "voor speciaal- en praktijkonderwijs",
+"cover": "https://lh3.googleusercontent.com/XpZGKronG6g6qyu3hIT_vMb_wuLCJ4mI8Fr-LCgMigdJg7od4QP_PXI_FvD0UHONgejrqJKJpWos3yeKpcxa6rKtP0EMSA=s500",
+"icon": "https://lh3.googleusercontent.com/WOYOY4hRQXVZN-l4OqX7jtSaBuyH1R2TsFZHV4qz_yNhfk0U9QFfMJi6idvhYgIMnTddWtPhlAY7Tdbw3jTPcprL7kqSQA=s70",
+"pos": 80
+},
+{
+"slug": "scorenederlands",
+"name": "SCORE Nederlands vo/mbo",
+"sub": "Een leskanaal van de Basisacademie",
+"cover": "https://lh3.googleusercontent.com/bHa1rSgEqNbzrae11HxpmElKcI9-mTx6b3_-2dbBMvsn8XdbJV4aPL0XYRAXxON3ohJ6YDKnpHbJsnlmF1Dod6OAaJQ=s500",
+"icon": "https://lh3.googleusercontent.com/ldQUUnstTO6S55J6zxVl-k8SxNZLlIegopnJMXLDAi3O9-2X2UmHbFVuAEjoK5R2tN1kiFcq2FfoiwTY3DSOlwgz6ph22Q=s70",
+"pos": 50
+},
+{
+"slug": "scorerekenen",
+"name": "SCORE Rekenen vo/mbo",
+"sub": "Een leskanaal van de Basisacademie",
+"cover": "https://lh3.googleusercontent.com/mKvXlbqDUo0aNtzf6JM3QshbHhmfDPsW8h9Krjer08Yp5hgd5sSKbNom8ELgKGqS5zg-c8vHiB92NDtszOqhyXnOo1Xjlw=s500",
+"icon": "https://lh3.googleusercontent.com/ldQUUnstTO6S55J6zxVl-k8SxNZLlIegopnJMXLDAi3O9-2X2UmHbFVuAEjoK5R2tN1kiFcq2FfoiwTY3DSOlwgz6ph22Q=s70",
+"pos": 0
+},
+{
+"slug": "buitendelijntjes",
+"name": "Buiten de Lijntjes",
+"sub": "Beeldende Vorming voor de Onderbouw & Projecten voor vwo-extra",
+"cover": "https://lh3.googleusercontent.com/N6w43oEtPQvzoKzKbF42fq99TiPu-1r0x53GtEx_E5dcI6CdqENyguqc76w3nmOC7cxJhenOPmmwdDkl6cbQDS0P5uB5=s500",
+"icon": "https://lh3.googleusercontent.com/DfRiuZdnrgMvFsgQUXI_RzJ2WTukwlM0f-Hjv7FBjJ_yLywmf7HIYZB_lmCH9WmRL7Yu15G10kjIjhVtmxH4XPkUZmoj=s70",
+"pos": 85
+},
+{
+"slug": "travel-inventive",
+"name": "Dé Schoolreisgids",
+"sub": "Powered by Travel Inventive",
+"cover": "https://lh3.googleusercontent.com/0I-M7bp7eE8XT7fC1uqZ76d9G8UEUSIwkfHxoUgVbG2IsW6p_6xEIBaXON33sx57l-zYaOYHFH3Qoak9FY-Z-DiLu5f_=s500",
+"icon": "https://lh3.googleusercontent.com/ykaEIjY72CuMIucTz6rVFqZ1UAqfAJ0F9r9IW41WpEG8-RTeHi_aPaw3BjmDUsAUY0RjCQN4cG4U5uiRkwHjQcJ0wuI=s70",
+"pos": 50
+},
+{
+"slug": "economievoorvmbo",
+"name": "Economie voor vmbo",
+"sub": "gratis lessen voor het vak economie",
+"cover": "https://lh3.googleusercontent.com/Ulb5Hex9nxVAGuVj8WAr7to5Mkrx7i5DWhgUzoOQBxLDKOvk6sB1GG--0Rpd1Wtkx-pb8P-jfOfUNEGRlwsiyQDX2Y3wFMcKqQUKC6E=s500",
+"icon": "https://lh3.googleusercontent.com/c7ZuA-iRDGxa1PBJJwef6l6mIDiSLg5rasVMwd8gG0SKOW20n1moOgfW6Xcos0M1AQ4TeIwcwTh3ORkBU1XvXjQ8d4A=s70",
+"pos": 30
+},
+{
+"slug": "lessonupacademynl",
+"name": "LessonUp Academy",
+"sub": "",
+"cover": "https://lh3.googleusercontent.com/COY6ZbEroQybdQRpEysAIJGCtCZYyDfiqJW7L2RMniXQOOxQun_0K4YTLa-9uwLTgj1HfCRf27gYm1gwCPYiWtqlMfeXJppPYIb2C3CW=s500",
+"icon": "https://lh3.googleusercontent.com/zmrTDNB0FV1Y4cE1S8s4ZGrOgdJXB-1oVF5yscvvQni7TSj5Wwk7k_SV_2v2W1fGMMyBGAA_V6V7ediKzfqZBtd9P8BT8FCEmwD3Bmw=s70",
+"pos": 50
+},
+{
+"slug": "guruz",
+"name": "Stichting Guruz",
+"sub": "Haal de kennis van het bedrijfsleven jouw klas in!",
+"cover": "https://lh3.googleusercontent.com/Wx2hlGuEWWLDbGW3dvc2hfz0jJ3Fz0GcinVdKPScar5PaWQ7o9HQUS8fPNoc8y3I7ZJDfwG7LgJhgl3ZdYSiUHHYM-TvGSZTB136Pv4=s500",
+"icon": "https://lh3.googleusercontent.com/pRdEPRqceWc4ZaERYRjrUbYrfg2DLXYiebpVKsSVM_nHiHEOnXF47I6028mG4mAFbE8oaUq6bUONd32mk0YjpiR7A3bgPm6gBU_bXeY=s70",
+"pos": 45
+},
+{
+"slug": "tussenons",
+"name": "Tussen ons",
+"sub": "Sociale vaardigheden in stripvorm voor de onderbouw van het vo",
+"cover": "https://lh3.ggpht.com/FL1aXidn83hmvk_YzAW10a48jMadXdi3OedWop0AqtLufo_MHIZFQimWsPSHoR11blrBEGgZCNaV0JbuuCYMQZ31fD-xzHTc5j8SCg=s0?v",
+"icon": "https://lh3.googleusercontent.com/g2iJMZBC13Q_Tuf-xMNA09exQzcZPaDCD5Zzr6HV9qToF7H52Ippe62iv8339C4_4euCt0VRMAHpJCKQqvRcdOe3828G4tcCwHh4JTw=s70",
+"pos": 50
+},
+{
+"slug": "aardrijkskunde",
+"name": "Aardrijkskunde!",
+"sub": "Lessen aardrijkskunde voor Vmbo onder- en bovenbouw.",
+"cover": "https://lh3.googleusercontent.com/NWGMTOGLInbVrRYSicPJ0Fq-9yKeixYT76-RYq6ETH3zuWN7-yh5D9i3P6Olo4nVGDyZZZFatEzCQzmaHXIhC3ltwh0=s500",
+"icon": "https://lh3.googleusercontent.com/lxTJmOQ2Vmqt9e3Ovhl9orfh_Kq9mxpbTNVXx6dh2X4vHkCah23uYxQifBgHvHKcy1KiNSh1eDxQTU9w6gJsa-vVofFA0g=s70",
+"pos": 15
+},
+{
+"slug": "lessonup",
+"name": "LessonUp Inspiratie",
+"sub": "",
+"cover": "https://lh3.googleusercontent.com/LCf_YP2F7LtcA4Dk-gEqmL99juZ7BWqduW-0mGIKHuvARzSsUcPE6Vacsqe3MNnMR1XtFH7nWffYThbLbdEyIlRZ0ABea6Etk7tL2U8=s500",
+"icon": "https://lh3.googleusercontent.com/HGt2-rOtpt4irm5stNL8Yeax5Tw2AbeVFy3fr4cZqYoN8XvLR7NgcsrC2KKkP3lKwGG24qaISd4NMvdM73HGnTLJwpUKfKZMHEtI_6w=s70",
+"pos": 58
+},
+{
+"slug": "startenmetlessonup",
+"name": "Starten met LessonUp",
+"sub": "Lesideeën po, vo en mbo",
+"cover": "https://lh3.googleusercontent.com/q_Q1rUWJtDlYY8VQRqK3rA0s3e4NM9u8IrgY7mmvrkiwsMILHbxlGMa3Vn-cnrcmS2q3nIhwmvj5aOgpkVc1p4PwXWO31bqxBSZvWQ=s500",
+"icon": "https://lh3.googleusercontent.com/ZgTFhpgusddrljjUDB1uwnNBLY6N_hGB6uhztybKvhyyc1AO1bat2ZBmz8E36Pds8kg-o7fqIpYdRtk945Tetxe3oijJldyN7p37TDY=s70",
+"pos": 50
+},
+{
+"slug": "slimbekeken",
+"name": "AI, slim bekeken",
+"sub": "Leerlijn AI-geletterdheid van PO groep 3 tot en met VO leerjaar 3",
+"cover": "https://lh3.ggpht.com/7EYr1exIEeNnxmL4HRmxbvl5-e9rPpMj-A7AhBK0jsmkU82zBhxl4EfPtkVrxr3bybRm6VLRpOrD4d7SQoncZ8hzNW7LRt8EQrOPeYk=s0?v",
+"icon": "https://lh3.googleusercontent.com/uliDGcYD1NOlxi1LHP7-RbZjZEzr3xgUQ8PUgWb1m9pEOR0v17Ex5RGfLMtFiFWwMqxfQ5JYRd1BNxcEfeYk2ENJwSQ9prFXm05GJms=s70",
+"pos": 50
+},
+{
+"slug": "vakwerk",
+"name": "Vakwerk, stap voor stap",
+"sub": "Praktijklessen voor het buitengewoon secundair onderwijs, met handleiding en leerlingenblad",
+"cover": "https://lh3.ggpht.com/JlymCdVbdKuXa5gMqQziWQwHpLkbi3vQg10nWsFGuk55GODBeJxeKBnE6zYVYM-gUjZbZoe0F7VbzG8bScuAvf_J0Mg5_VsDPRUQOt0=s0?v",
+"icon": "https://lh3.googleusercontent.com/3JsiptMux_2Rs12oSIYgy6wFHmRanC0orqz7_KJnw4NspcS8ohqtVOjBwGu6E5nOreeW_zBT4O7jiK3MqeCngj0vfqrgFyo5wZ3577U=s70",
+"pos": 50
+},
+{
+"slug": "dekwestie",
+"name": "De Kwestie",
+"sub": "Maatschappijleer voor havo en vwo, elke les één kwestie",
+"cover": "https://lh3.ggpht.com/6yhDmQFljhU1HCPjV14hW68ShR27gQzTuAf_uM3vBTmLPDvRW_Loz1KG2BYltIIbE71bkOuHq_5cM5YhYxAgdRA4kBTDpXVvXlhnma8=s0?v",
+"icon": "https://lh3.googleusercontent.com/tP9XwwWnxPNwRVG6UR2lO5sbGANTri-RI5BRh8mTeFj3rKkMHeZLY-TubeucJp0YThpHD8AUmxWqd1qJso2bp3R6B2rGLrYb70TcNuk=s70",
+"pos": 50
+},
+{
+"slug": "werkvormen",
+"name": "WoW! - Werkvormen in LessonUp",
+"sub": "Alle Werkvormen op Woensdag verzameld!",
+"cover": "https://lh3.googleusercontent.com/VAGQzF-hX92D-5KuLE6rm4qytpHiqtHnQueZ057EF4HjI5vzRLU8uvv0K2DHsL_p4OaOBgY0K848oQhgA4498yI6lRwJGeMW3TjhPWM=s500",
+"icon": "https://lh3.googleusercontent.com/04wTBlLs5IXI1wvUpwAH1eyiot3_x0cfcEA5pbwF3UmDTbDz1rLsPb-jTbogg6lzn-fS0gAhm8zoQJDHmMLj0T3OxVdDhkMAVG4nq5M=s70",
+"pos": 50
+},
+{
+"slug": "luider",
+"name": "LUIDER",
+"sub": "Protestsongs in de schijnwerpers, elke les één song",
+"cover": "https://lh3.ggpht.com/qyvMWVQw6uPkI7etTZjyFt1KMe4ZxbGJFWz7AWHtwcXd3Tyiol38iUKf1ku7KoJ34I1JpsV9uuvWp1TNPkLEC9gzjaGfvbJhYct3Hlo=s0?v",
+"icon": "https://lh3.googleusercontent.com/U2yK9wMYWZ_CJR_5dELeuTYTrzf5D-_06YhLKNwg1Y98BCqOPr1svHq48KuZSv30Q1qRtRy1B9wwxwO-pFUxoVCWe6pGqZ3uYbU-0XI=s70",
+"pos": 50
+},
+{
+"slug": "examenstof",
+"name": "Examenstof",
+"sub": "De examenstof in drie lessen: uitleg, training en quiz",
+"cover": "https://lh3.ggpht.com/kvFrDhU8OwW97nXYJjfvJ3qYb0fgWgZhzEBde1Np_YnIhJNvA2_Ip1OcUo4GSjzpR06A9v6LUec3l_-BuS5GHKPTDa0d9aSN2BoILar-=s0?v",
+"icon": "https://lh3.googleusercontent.com/2KdT3Iz4Y7-Awof5h6GxGJiyU31kFgsfB7qCg_g9WP_hC03alVlooY9112dRc0GtFn1LbF2NYGCk2vxIONR6HX3Wc_iYAPcvUfnqk0s=s70",
+"pos": 50
+},
+{
+"slug": "maatschappijleer",
+"name": "Maatschappijleer",
+"sub": "",
+"cover": "https://lh3.googleusercontent.com/E-rFXscMiy57TMSLe18gCRCE2zoZ270W4_RpjJBBgXr1MJGV1MjdTWsM93XrRHHysQJmzw62vnwkAvHHBnWdJnqjJnm8Kw=s500",
+"icon": "https://lh3.googleusercontent.com/x3zY01AzNqMUAM5OgJQHJCxwJma-YJoa241aAchNN63Bk46V_hKXwyIWkfkQKwaPFb9E_plJRolbmkfu4LKVLAjXkOKp=s70",
+"pos": 50
+},
+{
+"slug": "rekenen",
+"name": "Rekenen",
+"sub": "Rekenlessen voor groep 3 tot en met 8",
+"cover": "https://lh3.ggpht.com/H_mcrPCmdeuEFIFcfm1x_XVyiog1Ga99radu2vYhVHvmKJcSQa2ufBzKox9mwlEhcvDLUtKZRheEF1hSTub9L-6YEKEc8-5SUOAJN_4=s0?v",
+"icon": "https://lh3.googleusercontent.com/e6683Lkk42SntS_ZrYDn1UQykrXZeg_zTGxyxC8-232vTpi6MiUmp2aJSnYfnPWzNYCTf4Ogbwk5MvyrfyIRumn1T4b1RASaJo_w4w=s70",
+"pos": 30
+},
+{
+"slug": "ckv",
+"name": "CKV: Culturele & Kunstzinnige Vorming",
+"sub": "Art is Life",
+"cover": "https://lh3.googleusercontent.com/ef_UZERCGIxYlED-SzvBMaqd2khon1skVXZgRKGP9-iL6-Xygtl7EW0uZiS_N7TimLoim3FMb8c55rlpAvWkVwc86k5aVg=s500",
+"icon": "https://lh3.googleusercontent.com/cxYGuduhs0MtkUYuUtiADaMGrcq4tkleVQbbDSQnD1oQY77HY_ej-2rsFg-PRMhylI_9HXQsjvEmZnNJKoSE_EK7P_vi=s70",
+"pos": 15
+},
+{
+"slug": "digitale-vaardigheden",
+"name": "Digitale Geletterdheid",
+"sub": "Vaardig in het digitale tijdperk",
+"cover": "https://lh3.googleusercontent.com/YBmZeb5wdh3mrCcw2ITLfkjjFoy1ui7uQe94I1vwBF9QWoGUmq3IY2hUihQJzcbrd0fz1v1-98B56egzugbLc-Ap8cj1=s500",
+"icon": "https://lh3.googleusercontent.com/5JCivpuIxc6HlwD9VjgYSG7fcenv4tydxkd29EVlfx_KizLmsO7N3jLK3JyO1YJO5bzCJ4H3lfd366QVu3bmiXvOwmukcA=s70",
+"pos": 30
+},
+{
+"slug": "ANT2-maar-mee",
+"name": "TaalNT2",
+"sub": "Interactieve lessen voor NT2'ers & Alfaleerders",
+"cover": "https://lh3.googleusercontent.com/vSVC4xtyqCwOmsAtPCcrvHt9uxHjrsKecAJLe3viSkBYBRLE2RiOT48kCbHNJdjem3DWurE83IaSEsS7QxyETJE3V5g=s500",
+"icon": "https://lh3.googleusercontent.com/DsdkyfAEAKKXfeZuNtzmhXblU1p0SFI7KrSxDxl02apBcNwKkqQhHue1qIjaAIajIhcMbis-Cu6FcBW3LeoZqqaSp7h8DrjvEW1tIMO2=s70",
+"pos": 50
+},
+{
+"slug": "schoolofrock",
+"name": "🎼School of Rock🎙️",
+"sub": "",
+"cover": "https://lh3.ggpht.com/V6NvNPkt14mYfSNhxy7mK1pINux9NOCab9MNljkbTP--5catIf08kOacYF8IZWg80LKT4YNSAjBcHxCmx1krRh-G_LvoiF6VtsGL5rg=s0?v",
+"icon": "https://lh3.googleusercontent.com/PoHlton-5F1AKzysiaoxWVP3UyLgA_JudFJNyRL--KqwmzPQv5InGxo-pAci05GfWElax3SqXyNVIycol8jiQuuRyLL7m8lLilVtcoA=s70",
+"pos": 50
+}
+]
