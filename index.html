@@ -70,17 +70,20 @@ button{font:inherit;cursor:pointer}
 .intro.partner .badge-big{background:var(--blue)}
 
 /* grid */
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 10px}
-.grid .card:last-child:nth-child(odd){grid-column:1/-1}
-.card{position:relative;height:200px;overflow:hidden;color:#fff;display:block;background:#33434b}
+/* 6-koloms raster: kaart = 2 kolommen (3 per rij). Een onvolledige laatste rij wordt opgevuld. */
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px 10px}
+.grid .card{grid-column:span 2}
+.grid .card:last-child:nth-child(3n+1){grid-column:span 6}
+.grid .card:nth-last-child(2):nth-child(3n+1),.grid .card:last-child:nth-child(3n+2){grid-column:span 3}
+.card{position:relative;height:180px;overflow:hidden;color:#fff;display:block;background:#33434b}
 .card img.cover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .4s}
 .card:hover img.cover{transform:scale(1.04)}
 .card .glass{position:absolute;inset:0;background:rgba(0,0,0,.3)}
-.card .in{position:absolute;inset:0;display:flex;align-items:center;gap:16px;padding:0 24px 0 16px}
-.card .icon{flex:none;width:55px;height:55px;object-fit:contain;background:#fff}
-.card .icon.ph{display:grid;place-items:center;color:var(--navy);font-weight:700;font-size:20px}
-.card .name{font-family:var(--display);font-size:21px;text-transform:uppercase;line-height:1.15;letter-spacing:.01em}
-.card .sub{font-size:13.5px;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .in{position:absolute;inset:0;display:flex;align-items:center;gap:12px;padding:0 16px 0 14px}
+.card .icon{flex:none;width:46px;height:46px;object-fit:contain;background:#fff}
+.card .icon.ph{display:grid;place-items:center;color:var(--navy);font-weight:700;font-size:18px}
+.card .name{font-family:var(--display);font-size:18px;text-transform:uppercase;line-height:1.15;letter-spacing:.01em}
+.card .sub{font-size:12.5px;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .card .tag{position:absolute;top:10px;right:10px;background:var(--orig);color:#fff;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 9px;border-radius:999px;display:flex;align-items:center;gap:5px}
 .card .tag svg{width:11px;height:11px}
 
@@ -151,6 +154,9 @@ footer .f-admin{color:var(--blue);font-weight:600}
 @media (max-width:860px){
   .nav ul,.nav .right .login{display:none}
   .nav{justify-content:space-between}
+  /* tablet: 2 per rij */
+  .grid .card,.grid .card:nth-last-child(2):nth-child(3n+1),.grid .card:last-child:nth-child(3n+2),.grid .card:last-child:nth-child(3n+1){grid-column:span 3}
+  .grid .card:last-child:nth-child(odd){grid-column:span 6}
 }
 @media (max-width:640px){
   .hero{padding:32px 16px 110px}
@@ -162,7 +168,7 @@ footer .f-admin{color:var(--blue);font-weight:600}
   .panel{margin:-80px 16px 32px;padding:20px 14px 28px}
   .panel h2{font-size:27px}
   .grid{grid-template-columns:1fr}
-  .grid .card:last-child:nth-child(odd){grid-column:auto}
+  .grid .card{grid-column:auto!important}
   .card{height:170px}
   .card .name{font-size:18px}
   .intro{flex-direction:column;align-items:flex-start;gap:10px}
