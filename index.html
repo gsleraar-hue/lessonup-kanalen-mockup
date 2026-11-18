@@ -119,8 +119,8 @@ footer .f-admin{color:var(--blue);font-weight:600}
 .a-list .t{min-width:0}
 .a-list .t b{display:block;font-weight:600;font-size:14.5px;color:var(--navy);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .a-list .t span{font-size:12px;color:var(--muted)}
-.sw,.chk{display:flex;align-items:center;gap:8px;font-size:13.5px;cursor:pointer;user-select:none;white-space:nowrap}
-.sw input{position:absolute;opacity:0;width:1px;height:1px}
+.sw,.chk{position:relative;display:flex;align-items:center;gap:8px;font-size:13.5px;cursor:pointer;user-select:none;white-space:nowrap}
+.sw input{position:absolute;left:0;top:50%;opacity:0;width:1px;height:1px;margin:0}
 .sw span{width:38px;height:22px;border-radius:999px;background:#cfc9c8;position:relative;transition:background .2s;flex:none}
 .sw span::after{content:'';position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;transition:transform .2s}
 .sw input:checked+span{background:var(--orig)}
@@ -412,8 +412,20 @@ const setToken = t => { try { t ? localStorage.setItem('lu-mockup-token', t) : l
 
 function status(msg, kind) { const s = $('a-status'); s.textContent = msg; s.className = 'a-status ' + (kind || ''); s.hidden = !msg; }
 
+/* Na het opnieuw tekenen van de lijst: focus en scrollpositie behouden */
+function keepPlace(t, fn) {
+  const sel = t.dataset.orig ? `[data-orig="${CSS.escape(t.dataset.orig)}"]` : `[data-feat="${CSS.escape(t.dataset.feat)}"]`;
+  const list = $('a-list'), top = list.scrollTop, y = window.scrollY;
+  fn();
+  list.scrollTop = top; window.scrollTo(0, y);
+  list.querySelector(sel)?.focus({ preventScroll: true });
+}
 document.addEventListener('change', e => {
   const t = e.target;
+  if (!t.dataset.orig && !t.dataset.feat) return;
+  keepPlace(t, () => applyChange(t));
+});
+function applyChange(t) {
   if (t.dataset.orig) {
     const s = t.dataset.orig;
     if (t.checked) { draft.originals.add(s); draft.featured.partners = draft.featured.partners.filter(x => x !== s); }
@@ -425,7 +437,7 @@ document.addEventListener('change', e => {
     draft.featured[k] = t.checked ? [...draft.featured[k], s] : draft.featured[k].filter(x => x !== s);
     status(''); renderAdmin();
   }
-});
+}
 $('aq').addEventListener('input', renderAdmin);
 document.querySelectorAll('.a-filter button').forEach(b => b.addEventListener('click', () => { adminFilter = b.dataset.f; renderAdmin(); }));
 $('a-reset').addEventListener('click', () => { draft = toDraft(); applyConfig(PUBLISHED); previewing = false; status(''); renderAdmin(); });
