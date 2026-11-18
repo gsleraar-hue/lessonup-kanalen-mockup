@@ -19,7 +19,13 @@
     "schoolofrock"
   ],
   "featured": {
-    "partners": ["26000gezichten", "voedingscentrum"],
-    "originals": ["dekwestie", "slimbekeken"]
+    "partners": [
+      "26000gezichten",
+      "voedingscentrum"
+    ],
+    "originals": [
+      "dekwestie",
+      "slimbekeken"
+    ]
   }
 }
