@@ -784,6 +784,30 @@
 "pos": 30
 },
 {
+"slug": "startklaar",
+"name": "Startklaar",
+"sub": "Lessen voor het mbo, van Entree tot niveau 4",
+"cover": "https://lh3.ggpht.com/ltR-VH9urpNVNUuphcP6IWChs3dUybc3j4Tz6GtBOMJrMvm0Fn0cOlsVFeof9jWnLz8VqILVikUvr890IDcn8DLUEXMpSYEbKjkqFA=s0?v",
+"icon": "https://lh3.googleusercontent.com/xI11r96YmIoWxKLGJyG_QcG_10LnnFu9cbWTr8DguMNMuX95YD1ue0C3EZiDT2R57ZMcBMWpOk6XwVdluudTe8q2Fg5DlSm5zv9riEk=s70",
+"pos": 50
+},
+{
+"slug": "leesspoor",
+"name": "Leesspoor",
+"sub": "Begrijpend lezen op AVI-niveau E3 tot en met E7",
+"cover": "https://lh3.ggpht.com/tZeDdSo3ijmfUfE9-VzqvW9-n40p7SLhtXkIjWsptNaX3FrcAOd38rAN99PxK52rJGGfRqMzlUFmUhUfkWS7a5bpPk6xo9UkvUcyVhM=s0?v",
+"icon": "https://lh3.googleusercontent.com/E4KvR2YjU0G1NCGv5nxZ24U7ivfXtKFgKVdn4s-iUSM_CJNquvwErnIhl2JURzp8RZF0lEH_RkRoYpjpZyNm1kcsiFNjR1veeM0J6Q=s70",
+"pos": 50
+},
+{
+"slug": "invallessen",
+"name": "Invallessen",
+"sub": "Kant-en-klare lessen voor als de docent er niet is",
+"cover": "https://lh3.googleusercontent.com/quKc6PugX0LwjJXrlnBBLwPVGyEUuzwm2hLYyMXr6mSVTFLrmDgzPPRTYcZfrBGWwT6Q-MPUZZs40Z87oM5RrdE4kDFwnN3u0jTFi0U=s500",
+"icon": "https://lh3.googleusercontent.com/rKJfZr8ADlzsNLxPGuHV_cTjC42jonm5yRhbEEdaZKBKjeBy66BQphfpCLZpsH7K2-upGWue76N_gvRJRro4EUxI2VQyJ08uH4IN33TR=s70",
+"pos": 50
+},
+{
 "slug": "lessonupacademynl",
 "name": "LessonUp Academy",
 "sub": "",
